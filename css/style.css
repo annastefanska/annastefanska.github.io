@@ -191,3 +191,12 @@ footer{
 }
 
 /
+
+/* Animacje */
+
+section{
+
+opacity:0;
+transform:translateY(40px);
+
+   }
