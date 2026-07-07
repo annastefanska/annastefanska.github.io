@@ -364,3 +364,35 @@ padding:25px;
 }
 
 }
+
+/* ===== KARTY BLOGA ===== */
+
+.blog-card{
+
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+margin-bottom:50px;
+
+}
+
+.blog-card img{
+
+width:100%;
+border-radius:15px;
+margin-bottom:25px;
+
+}
+
+.blog-card h2{
+
+margin-bottom:15px;
+
+}
+
+.blog-card p{
+
+margin-bottom:20px;
+
+}
