@@ -124,3 +124,45 @@ footer {
     padding: 40px;
     color: #666;
     }
+
+/* HERO */
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#faf8fc,#f2ece6);
+}
+
+.hero-content{
+    max-width:650px;
+}
+
+.hero h1{
+    font-size:58px;
+    color:#8b6f47;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:35px;
+    color:#555;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.button.secondary{
+    background:white;
+    color:#8b6f47;
+    border:2px solid #b08d57;
+}
+
+.button.secondary:hover{
+    background:#b08d57;
+    color:white;
+}
