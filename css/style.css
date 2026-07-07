@@ -1,3 +1,6 @@
 body {
-
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fdfaf8;
+    color: #3d3d3d;
 }
