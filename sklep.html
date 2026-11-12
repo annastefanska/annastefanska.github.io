@@ -26,19 +26,19 @@ color:#444;
 line-height:1.8;
 }
 
-header{
+.page-banner{
 background:#d8c4ea;
 color:white;
 text-align:center;
 padding:70px 20px;
 }
 
-header h1{
+.page-banner h1{
 font-size:44px;
 margin-bottom:15px;
 }
 
-header p{
+.page-banner p{
 font-size:20px;
 max-width:800px;
 margin:auto;
@@ -52,7 +52,7 @@ padding:60px 20px;
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(min(100%, 280px),1fr));
 gap:30px;
 }
 
@@ -129,13 +129,48 @@ margin-top:60px;
 
 }
 
+
+@media(max-width:680px){
+.page-banner{padding:42px 18px}
+.page-banner h1{font-size:clamp(29px,8vw,38px);line-height:1.2}
+.page-banner p{font-size:16px;line-height:1.65}
+section{padding:40px 18px}
+.grid{grid-template-columns:minmax(0,1fr);gap:18px}
+.card{padding:22px}
+.card h2{font-size:24px}
+.info{padding:45px 20px}
+}
 </style>
 
 </head>
 
 <body>
 
-<header>
+<header class="site-header">
+  <div class="container site-header-inner">
+    <nav class="site-nav" aria-label="Menu główne">
+      <a href="index.html" class="logo" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="images/logo-header.png" alt="" width="632" height="486">
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle-text">Menu</span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+<li><a href="index.html">Strona główna</a></li>
+<li><a href="o-mnie.html">O mnie</a></li>
+<li><a href="oferta.html">Oferta</a></li>
+<li><a href="biblioteka.html">Biblioteka</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="sklep.html" aria-current="page">Sklep</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<div class="page-banner">
 
 <h1>🛍️ Sklep</h1>
 
@@ -148,7 +183,7 @@ oraz dbać o siebie również pomiędzy spotkaniami.
 
 </p>
 
-</header>
+</div>
 
 <section>
 

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Poznaj Annę Stefańską, jej doświadczenie, podejście do pracy psychologicznej i inicjatywę Przestrzeń Czułości.">
+  <title>O mnie | Anna Stefańska | Przestrzeń Czułości</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+/* About page: self-contained styles; global layout continues to use css/style.css. */
+.about-page { overflow: hidden; }
+.about-page section { opacity: 1 !important; transform: none !important; }
+.about-page .about-hero { background: linear-gradient(130deg,#faf8fc 0%,#f7f3ee 52%,#f0e9df 100%); padding: 98px 0 90px; }
+.about-page .about-hero-inner { display: grid; grid-template-columns: minmax(0,1fr) 210px; align-items: center; gap: 54px; max-width: 1040px; }
+.about-page .about-eyebrow { color: #376351; font-size: 12px; letter-spacing: .18em; font-weight: 700; text-transform: uppercase; margin-bottom: 14px; }
+.about-page h1 { color: #8b6f47; font-size: clamp(40px,5vw,66px); font-weight: 700; line-height: 1.18; margin: 0 0 24px; }
+.about-page .about-hero-lead { color: #4f514d; font-size: clamp(18px,2vw,21px); line-height: 1.95; max-width: 850px; }
+.about-page .about-mark { width: 100%; max-width: 210px; height: auto; justify-self: center; filter: drop-shadow(0 7px 14px rgba(24,54,42,.09)); }
+.about-page .about-story { background: #fff; border-bottom: 1px solid #eee8e0; padding: 59px 0; }
+.about-page .about-story:nth-of-type(odd) { background: #fbf8f4; }
+.about-page .about-story-row { max-width: 1040px; display: grid; grid-template-columns: 280px minmax(0,1fr); align-items: start; gap: 70px; }
+.about-page .about-story-number { display: block; font-size: 13px; font-weight: 600; color: #b08d57; letter-spacing: .12em; margin-bottom: 18px; }
+.about-page .about-story-title h2 { font-size: clamp(26px,2.8vw,33px); line-height: 1.3; font-weight: 650; color: #826640; }
+.about-page .about-story-content p { font-size: 18px; color: #4e504d; line-height: 1.95; margin: 0; }
+.about-page .about-quote { text-align: center; background: #f0e9df; padding: 88px 0; }
+.about-page .about-quote-inner { max-width: 880px; }
+.about-page .about-quote::before { content: ''; display: block; width: 78px; height: 2px; background: #b08d57; margin: 0 auto 35px; }
+.about-page .about-quote blockquote { margin: 0; font-size: clamp(24px,3.4vw,39px); line-height: 1.55; font-weight: 600; color: #2d4b3e; }
+.about-page .about-contact { background: #fff; text-align: center; padding: 65px 0 80px; }
+.about-page .about-contact h2 { font-size: clamp(26px,3vw,34px); line-height: 1.35; margin-bottom: 22px; }
+.about-page .about-contact .button { margin-top: 6px; }
+.about-page .about-contact .button:focus-visible, header nav a:focus-visible { outline: 3px solid #214c3d; outline-offset: 5px; }
+@media (max-width: 840px) {
+  .about-page .about-hero { padding: 65px 0; }
+  .about-page .about-hero-inner { grid-template-columns: 1fr; gap: 22px; }
+  .about-page .about-mark { width: 110px; justify-self: start; grid-row: 1; }
+  .about-page .about-story-row { grid-template-columns: 1fr; gap: 19px; }
+  .about-page .about-story { padding: 43px 0; }
+  .about-page .about-story-number { margin-bottom: 10px; }
+  .about-page .about-story-title h2 { margin-bottom: 0; }
+  .about-page .about-story-content p { font-size: 17px; line-height: 1.85; }
+  .about-page .about-quote { padding: 65px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .about-page *, .about-page *::before, .about-page *::after { scroll-behavior: auto !important; transition: none !important; }
+}
+
+@media(max-width:680px){
+.about-page .about-hero{padding:45px 0 48px}
+.about-page .about-hero-inner{gap:14px}
+.about-page .about-mark{width:86px}
+.about-page h1{font-size:clamp(33px,9vw,45px); margin-bottom:17px}
+.about-page .about-hero-lead{font-size:16px;line-height:1.8}
+.about-page .about-story{padding:34px 0}
+.about-page .about-story-row{gap:14px}
+.about-page .about-story-title h2{font-size:clamp(24px,6.4vw,29px)}
+.about-page .about-story-content p{font-size:16px;line-height:1.83}
+.about-page .about-quote{padding:52px 0}
+.about-page .about-quote blockquote{font-size:clamp(23px,6.3vw,30px)}
+.about-page .about-contact{padding:49px 0 60px}
+}
+</style>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header-inner">
+    <nav class="site-nav" aria-label="Menu główne">
+      <a href="index.html" class="logo" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="images/logo-header.png" alt="" width="632" height="486">
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle-text">Menu</span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+<li><a href="index.html">Strona główna</a></li>
+<li><a href="o-mnie.html" aria-current="page">O mnie</a></li>
+<li><a href="oferta.html">Oferta</a></li>
+<li><a href="biblioteka.html">Biblioteka</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="sklep.html">Sklep</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <main class="about-page">
+    <section class="about-hero" aria-labelledby="about-title">
+      <div class="container about-hero-inner">
+        <div>
+          <p class="about-eyebrow">Poznajmy się</p>
+          <h1 id="about-title">Trochę o mnie</h1>
+          <p class="about-hero-lead">Jestem psycholożką, magistrem psychologii klinicznej ze specjalizacją psychoterapeutyczną. Wspieram dzieci, młodzież, osoby dorosłe i rodziny w radzeniu sobie z trudnościami emocjonalnymi, kryzysami życiowymi, doświadczeniami traumatycznymi oraz problemami w relacjach. Szczególnie bliskie są mi zagadnienia psychotraumatologii, regulacji emocji, psychologii relacji i odzyskiwania poczucia bezpieczeństwa.</p>
+        </div>
+        <img class="about-mark" src="images/logo-header.png" alt="" aria-hidden="true">
+      </div>
+    </section>
+    
+    <section class="about-story" aria-labelledby="story-01">
+      <div class="container about-story-row">
+        <div class="about-story-title">
+          <span class="about-story-number" aria-hidden="true">01</span>
+          <p class="about-eyebrow">Moje doświadczenie</p>
+          <h2 id="story-01">Doświadczenie zawodowe</h2>
+        </div>
+        <div class="about-story-content"><p>Doświadczenie zawodowe zdobywałam w pracy indywidualnej i grupowej, prowadząc wsparcie psychologiczne, diagnozę psychologiczną, działania psychoedukacyjne oraz grupy wsparcia. Pracowałam z dziećmi i dorosłymi doświadczającymi zaburzeń lękowych, obniżonego nastroju, trudności emocjonalnych, ADHD, spektrum autyzmu oraz problemów w relacjach. Wspieram również rodziców i rodziny mierzące się z wyzwaniami wychowawczymi i emocjonalnymi.</p></div>
+      </div>
+    </section>
+
+    <section class="about-story" aria-labelledby="story-02">
+      <div class="container about-story-row">
+        <div class="about-story-title">
+          <span class="about-story-number" aria-hidden="true">02</span>
+          <p class="about-eyebrow">Obszary zainteresowań</p>
+          <h2 id="story-02">Psychotraumatologia i psychoonkologia</h2>
+        </div>
+        <div class="about-story-content"><p>Szczególnym obszarem mojego zainteresowania jest psychotraumatologia. Zajmuję się tematyką traumy, PTSD, doświadczeń przemocy, kryzysów psychicznych oraz trudności wynikających z wczesnych doświadczeń relacyjnych. Ważne miejsce w mojej pracy zajmuje również psychoonkologia, wspieranie osób doświadczających choroby nowotworowej oraz ich bliskich, a także towarzyszenie w procesach straty i żałoby.</p></div>
+      </div>
+    </section>
+
+    <section class="about-story" aria-labelledby="story-03">
+      <div class="container about-story-row">
+        <div class="about-story-title">
+          <span class="about-story-number" aria-hidden="true">03</span>
+          <p class="about-eyebrow">Moje podejście</p>
+          <h2 id="story-03">Jak pracuję?</h2>
+        </div>
+        <div class="about-story-content"><p>W pracy korzystam z wiedzy i narzędzi wywodzących się z różnych podejść psychologicznych, w szczególności terapii poznawczo-behawioralnej (CBT), terapii skoncentrowanej na rozwiązaniach (TSR) oraz terapii schematów. Wykorzystuję również elementy pracy nad regulacją emocji, uważności (mindfulness) i budowaniem samoświadomości. Dobór sposobu pracy dostosowuję do indywidualnych potrzeb, możliwości i sytuacji osoby, z którą pracuję.</p></div>
+      </div>
+    </section>
+
+    <section class="about-story" aria-labelledby="story-04">
+      <div class="container about-story-row">
+        <div class="about-story-title">
+          <span class="about-story-number" aria-hidden="true">04</span>
+          <p class="about-eyebrow">Wiedza i rozwój</p>
+          <h2 id="story-04">Wykształcenie i kwalifikacje</h2>
+        </div>
+        <div class="about-story-content"><p>Ukończyłam studia magisterskie z psychologii klinicznej ze specjalizacją psychoterapeutyczną. Jestem absolwentką szkoleń z zakresu terapii skoncentrowanej na rozwiązaniach, treningu umiejętności społecznych oraz terapii schematów. Posiadam certyfikat psychotraumatologii i rozwijam kompetencje w ramach szkolenia z psychotraumatologii praktycznej. Obecnie kształcę się również na studiach podyplomowych z psychoonkologii. Regularnie poszerzam wiedzę poprzez szkolenia, konferencje i rozwój zawodowy.</p></div>
+      </div>
+    </section>
+
+    <section class="about-story" aria-labelledby="story-05">
+      <div class="container about-story-row">
+        <div class="about-story-title">
+          <span class="about-story-number" aria-hidden="true">05</span>
+          <p class="about-eyebrow">Relacja i zrozumienie</p>
+          <h2 id="story-05">Co jest dla mnie ważne?</h2>
+        </div>
+        <div class="about-story-content"><p>W relacji z drugim człowiekiem najważniejsze są dla mnie uważność, autentyczność, szacunek i poczucie bezpieczeństwa. Wierzę, że możliwość opowiedzenia własnej historii, bez oceniania i presji, może stać się ważnym początkiem zmiany. Towarzyszę osobom w lepszym rozumieniu siebie, swoich emocji i potrzeb, odkrywaniu własnych zasobów oraz stopniowym odzyskiwaniu równowagi.</p></div>
+      </div>
+    </section>
+
+    <section class="about-story" aria-labelledby="story-06">
+      <div class="container about-story-row">
+        <div class="about-story-title">
+          <span class="about-story-number" aria-hidden="true">06</span>
+          <p class="about-eyebrow">Moja inicjatywa</p>
+          <h2 id="story-06">Przestrzeń Czułości</h2>
+        </div>
+        <div class="about-story-content"><p>Tworzę również autorskie materiały psychoedukacyjne i projekty psychologiczne w ramach mojej inicjatywy „Przestrzeń Czułości”. W swojej pracy łączę wiedzę psychologiczną z wrażliwością na indywidualną historię każdego człowieka.</p></div>
+      </div>
+    </section>
+    <section class="about-quote" aria-label="Moje przesłanie">
+      <div class="container about-quote-inner">
+        <blockquote>Wierzę, że każdy człowiek zasługuje na przestrzeń, w której może zostać usłyszany, zrozumiany i potraktowany z uważnością.</blockquote>
+      </div>
+    </section>
+    <section class="about-contact" aria-labelledby="about-contact-title">
+      <div class="container">
+        <h2 id="about-contact-title">Zapraszam do kontaktu</h2>
+        <a href="kontakt.html" class="button">Skontaktuj się ze mną</a>
+      </div>
+    </section>
+  </main>
+  <footer>© 2026 Przestrzeń Czułości • mgr Anna Stefańska</footer>
+</body>
+</html>

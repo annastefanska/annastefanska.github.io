@@ -25,28 +25,28 @@ color:#444;
 line-height:1.8;
 }
 
-header{
+.page-banner{
 background:#d9c8ef;
 padding:60px 20px;
 text-align:center;
 color:white;
 }
 
-header h1{
+.page-banner h1{
 font-size:42px;
 margin-bottom:10px;
 }
 
-header p{
+.page-banner p{
 font-size:20px;
 }
 
-.container{
+.contact-grid{
 max-width:1100px;
 margin:auto;
 padding:60px 20px;
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(min(100%, 340px),1fr));
 gap:40px;
 }
 
@@ -108,21 +108,55 @@ text-align:center;
 padding:25px;
 }
 
+
+@media(max-width:680px){
+.page-banner{padding:42px 18px}
+.page-banner h1{font-size:clamp(29px,8vw,38px);line-height:1.2}
+.page-banner p{font-size:16px}
+.contact-grid{grid-template-columns:minmax(0,1fr);padding:28px 0;gap:20px}
+.box{padding:22px 18px}
+input,textarea{max-width:100%;font-size:16px}
+button[type=submit]{width:100%}
+}
 </style>
 
 </head>
 
 <body>
 
-<header>
+<header class="site-header">
+  <div class="container site-header-inner">
+    <nav class="site-nav" aria-label="Menu główne">
+      <a href="index.html" class="logo" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="images/logo-header.png" alt="" width="632" height="486">
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle-text">Menu</span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+<li><a href="index.html">Strona główna</a></li>
+<li><a href="o-mnie.html">O mnie</a></li>
+<li><a href="oferta.html">Oferta</a></li>
+<li><a href="biblioteka.html">Biblioteka</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="sklep.html">Sklep</a></li>
+<li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<div class="page-banner">
 
 <h1>Kontakt</h1>
 
 <p>Przestrzeń Czułości</p>
 
-</header>
+</div>
 
-<div class="container">
+<div class="container contact-grid">
 
 <div class="box">
 
