@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>O mnie | Anna Stefańska | Przestrzeń Czułości</title>
+
+<meta name="description" content="Poznaj Annę Stefańską, psycholożkę i terapeutkę TSR. Dowiedz się więcej o jej doświadczeniu, podejściu do pracy i obszarach zainteresowań.">
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+<!-- ===== MENU GŁÓWNE ===== -->
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<a href="index.html" class="logo">
+<img src="obrazy/logo.png" alt="Logo Przestrzeń Czułości">
+</a>
+
+<ul>
+
+<li><a href="index.html">Strona główna</a></li>
+<li><a href="o-mnie.html">O mnie</a></li>
+<li><a href="oferta.html">Oferta</a></li>
+<li><a href="biblioteka.html">Biblioteka</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="sklep.html">Sklep</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<main>
+
+<!-- ===== SEKCJA GŁÓWNA ===== -->
+
+<section class="about-hero">
+
+<div class="container">
+
+<div class="about-hero-content">
+
+<p class="about-subtitle">POZNAJMY SIĘ</p>
+
+<h1>Kilka słów o mnie</h1>
+
+<p class="about-intro">
+
+Jestem psycholożką, magistrem psychologii klinicznej
+ze specjalizacją psychoterapeutyczną.
+
+</p>
+
+<p>
+
+Wspieram dzieci, młodzież, osoby dorosłe i rodziny
+w radzeniu sobie z trudnościami emocjonalnymi,
+kryzysami życiowymi, doświadczeniami traumatycznymi
+oraz problemami w relacjach.
+
+</p>
+
+<p>
+
+Szczególnie bliskie są mi zagadnienia psychotraumatologii,
+regulacji emocji, psychologii relacji i odzyskiwania
+poczucia bezpieczeństwa.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== DOŚWIADCZENIE ZAWODOWE ===== -->
+
+<section class="about-section">
+
+<div class="container">
+
+<div class="about-heading">
+
+<p class="about-subtitle">MOJE DOŚWIADCZENIE</p>
+
+<h2>Doświadczenie zawodowe</h2>
+
+</div>
+
+<div class="about-text">
+
+<p>
+
+Doświadczenie zawodowe zdobywałam w pracy indywidualnej
+i grupowej, prowadząc wsparcie psychologiczne,
+diagnozę psychologiczną, działania psychoedukacyjne
+oraz grupy wsparcia.
+
+</p>
+
+<p>
+
+Pracowałam z dziećmi i dorosłymi doświadczającymi
+zaburzeń lękowych, obniżonego nastroju, trudności
+emocjonalnych, ADHD, spektrum autyzmu oraz problemów
+w relacjach.
+
+</p>
+
+<p>
+
+Wspieram również rodziców i rodziny mierzące się
+z wyzwaniami wychowawczymi i emocjonalnymi.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== PSYCHOTRAUMATOLOGIA ===== -->
+
+<section class="about-method">
+
+<div class="container">
+
+<div class="about-heading">
+
+<p class="about-subtitle">OBSZAR MOICH ZAINTERESOWAŃ</p>
+
+<h2>Psychotraumatologia</h2>
+
+</div>
+
+<div class="about-text">
+
+<p>
+
+Szczególnym obszarem mojego zainteresowania jest
+psychotraumatologia. Zajmuję się tematyką traumy,
+PTSD, doświadczeń przemocy, kryzysów psychicznych
+oraz trudności wynikających z wczesnych doświadczeń
+relacyjnych.
+
+</p>
+
+<p>
+
+Ważne miejsce w mojej pracy zajmuje również
+psychoonkologia, wspieranie osób doświadczających
+choroby nowotworowej oraz ich bliskich, a także
+towarzyszenie w procesach straty i żałoby.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== PODEJŚCIE DO PRACY ===== -->
+
+<section class="about-section">
+
+<div class="container">
+
+<div class="about-heading">
+
+<p class="about-subtitle">MOJE PODEJŚCIE</p>
+
+<h2>Jak pracuję?</h2>
+
+<p>
+
+W pracy korzystam z wiedzy i narzędzi wywodzących
+się z różnych podejść psychologicznych, dostosowując
+sposób pracy do indywidualnych potrzeb i możliwości
+każdej osoby.
+
+</p>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-card">
+
+<h3>TSR</h3>
+
+<p>
+
+Terapia Skoncentrowana na Rozwiązaniach.
+Podejście oparte na odkrywaniu zasobów,
+możliwości i poszukiwaniu rozwiązań.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<h3>CBT</h3>
+
+<p>
+
+Elementy terapii poznawczo-behawioralnej,
+praca z przekonaniami, emocjami oraz
+wzorcami myślenia i zachowania.
+
+</p>
+
+</div>
+
+<div class="about-card">
+
+<h3>Terapia schematów</h3>
+
+<p>
+
+Praca z utrwalonymi przekonaniami,
+schematami emocjonalnymi i sposobami
+reagowania na doświadczenia życiowe.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="about-text">
+
+<p>
+
+Wykorzystuję również elementy pracy nad regulacją
+emocji, uważności (mindfulness) i budowaniem
+samoświadomości.
+
+Dobór sposobu pracy dostosowuję do indywidualnych
+potrzeb, możliwości i sytuacji osoby,
+z którą pracuję.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== WYKSZTAŁCENIE ===== -->
+
+<section class="about-method">
+
+<div class="container">
+
+<div class="about-heading">
+
+<p class="about-subtitle">WIEDZA I ROZWÓJ</p>
+
+<h2>Wykształcenie i kwalifikacje</h2>
+
+</div>
+
+<div class="about-text">
+
+<p>
+
+Ukończyłam studia magisterskie z psychologii klinicznej
+ze specjalizacją psychoterapeutyczną.
+
+</p>
+
+<p>
+
+Jestem absolwentką szkoleń z zakresu terapii
+skoncentrowanej na rozwiązaniach, treningu umiejętności
+społecznych oraz terapii schematów.
+
+</p>
+
+<p>
+
+Posiadam certyfikat psychotraumatologii i rozwijam
+kompetencje w ramach szkolenia z psychotraumatologii
+praktycznej.
+
+</p>
+
+<p>
+
+Obecnie kształcę się również na studiach podyplomowych
+z psychoonkologii.
+
+</p>
+
+<p>
+
+Regularnie poszerzam wiedzę poprzez szkolenia,
+konferencje i rozwój zawodowy.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== WARTOŚCI W PRACY ===== -->
+
+<section class="about-section">
+
+<div class="container">
+
+<div class="about-heading">
+
+<p class="about-subtitle">RELACJA I ZROZUMIENIE</p>
+
+<h2>Co jest dla mnie ważne?</h2>
+
+</div>
+
+<div class="about-text">
+
+<p>
+
+W relacji z drugim człowiekiem najważniejsze są dla mnie
+uważność, autentyczność, szacunek i poczucie bezpieczeństwa.
+
+</p>
+
+<p>
+
+Wierzę, że możliwość opowiedzenia własnej historii,
+bez oceniania i presji, może stać się ważnym
+początkiem zmiany.
+
+</p>
+
+<p>
+
+Towarzyszę osobom w lepszym rozumieniu siebie,
+swoich emocji i potrzeb, odkrywaniu własnych zasobów
+oraz stopniowym odzyskiwaniu równowagi.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ===== PRZESTRZEŃ CZUŁOŚCI ===== -->
+
+<section class="about-quote">
+
+<div class="container">
+
+<p class="about-subtitle">MOJA INICJATYWA</p>
+
+<h2>Przestrzeń Czułości</h2>
+
+<p>
+
+Tworzę również autorskie materiały psychoedukacyjne
+i projekty psychologiczne w ramach mojej inicjatywy
+„Przestrzeń Czułości”.
+
+</p>
+
+<p>
+
+W swojej pracy łączę wiedzę psychologiczną
+z wrażliwością na indywidualną historię
+każdego człowieka.
+
+</p>
+
+<h2 class="about-final-quote">
+
+Wierzę, że każdy człowiek zasługuje na przestrzeń,
+w której może zostać usłyszany, zrozumiany
+i potraktowany z uważnością.
+
+</h2>
+
+</div>
+
+</section>
+
+
+<!-- ===== KONTAKT ===== -->
+
+<section class="about-contact">
+
+<div class="container">
+
+<h2>Zapraszam Cię do Przestrzeni Czułości</h2>
+
+<p>
+
+Jeżeli szukasz przestrzeni do rozmowy,
+refleksji i lepszego zrozumienia siebie,
+zapraszam Cię do kontaktu.
+
+</p>
+
+<a href="kontakt.html" class="button">
+
+Skontaktuj się ze mną
+
+</a>
+
+</div>
+
+</section>
+
+</main>
+
+
+<!-- ===== STOPKA ===== -->
+
+<footer>
+
+© 2026 Przestrzeń Czułości • mgr Anna Stefańska
+
+</footer>
+
+</body>
+
+</html>
