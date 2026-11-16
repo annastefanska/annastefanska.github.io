@@ -1,60 +1,643 @@
-
 media:
+- name: blog_images
+  label: Zdjęcia bloga
   input: images/blog
   output: /images/blog
   rename: safe
-
+- name: site_images
+  label: Obrazy strony
+  input: images
+  output: /images
+  rename: safe
+settings:
+  content:
+    merge: true
 content:
-  - name: blog
-    label: Wpisy na blogu
-    type: collection
-    path: _posts
-    format: yaml-frontmatter
-    filename: "{year}-{month}-{day}-{title}.md"
-    view:
-      primary: title
-      fields: [title, date, category, published]
-      sort: [date, title]
-      default:
-        sort: date
-        order: desc
-    operations:
-      create: true
-      rename: false
-      delete: true
+- name: blog
+  label: Wpisy na blogu
+  type: collection
+  path: _posts
+  format: yaml-frontmatter
+  filename: '{year}-{month}-{day}-{title}.md'
+  view:
+    primary: title
     fields:
-      - name: title
-        label: Tytuł artykułu
-        type: string
-        required: true
-      - name: date
-        label: Data publikacji
-        type: date
-        required: true
-        options:
-          format: yyyy-MM-dd
-      - name: category
-        label: Kategoria / temat
-        type: string
-        description: Np. Emocje, Dzieci, Relacje, Trauma
-      - name: summary
-        label: Krótki opis na liście wpisów
-        type: text
-        required: true
-      - name: image
-        label: Zdjęcie główne
-        type: image
-        options:
-          rename: safe
-      - name: published
-        label: Opublikowany
-        type: boolean
-        default: true
-      - name: body
-        label: Treść artykułu
-        type: rich-text
-        required: true
-        options:
-          format: markdown
-          rename: safe
-          switcher: true
+    - title
+    - date
+    - category
+    - published
+    sort:
+    - date
+    - title
+    default:
+      sort: date
+      order: desc
+  operations:
+    create: true
+    rename: false
+    delete: true
+  fields:
+  - name: title
+    label: Tytuł artykułu
+    type: string
+    required: true
+  - name: date
+    label: Data publikacji
+    type: date
+    required: true
+    options:
+      format: yyyy-MM-dd
+  - name: category
+    label: Kategoria / temat
+    type: string
+  - name: summary
+    label: Krótki opis na liście wpisów
+    type: text
+  - name: image
+    label: Zdjęcie główne
+    type: image
+    options:
+      media: blog_images
+      rename: safe
+  - name: published
+    label: Opublikowany
+    type: boolean
+    default: true
+  - name: featured_archive
+    label: Wyróżniony wpis w archiwum
+    type: boolean
+    default: false
+  - name: body
+    label: Treść artykułu
+    type: rich-text
+    required: true
+    options:
+      format: markdown
+      switcher: true
+      rename: safe
+      media: blog_images
+- name: home
+  label: Strona główna
+  type: file
+  path: _data/pages/home.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: title
+    label: Duży nagłówek
+    type: text
+  - name: lead
+    label: Opis pod nagłówkiem
+    type: text
+  - name: button_contact
+    label: Przycisk kontaktu
+    type: string
+  - name: button_about
+    label: Przycisk O mnie
+    type: string
+  - name: welcome_eyebrow
+    label: Mały nagłówek sekcji powitania
+    type: string
+  - name: welcome_title
+    label: Tytuł sekcji powitania
+    type: string
+  - name: welcome_paragraphs
+    label: Akapit powitania
+    type: text
+    list: true
+  - name: welcome_button
+    label: Przycisk oferty
+    type: string
+- name: about
+  label: O mnie
+  type: file
+  path: _data/pages/about.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: sections
+    label: Sekcje opisu - można dodawać i usuwać
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: eyebrow
+      label: Krótki napis
+      type: string
+    - name: title
+      label: Tytuł sekcji
+      type: string
+    - name: body_html
+      label: Treść sekcji
+      type: rich-text
+      options:
+        format: html
+        switcher: true
+        media: false
+  - name: quote
+    label: Wyróżniony cytat
+    type: text
+  - name: callout
+    label: Sekcja zaproszenia do kontaktu
+    type: object
+    fields:
+    - name: eyebrow
+      label: Mały nagłówek
+      type: string
+    - name: title
+      label: Tytuł
+      type: string
+    - name: body
+      label: Opis
+      type: text
+    - name: button_label
+      label: Tekst przycisku
+      type: string
+- name: offer
+  label: Oferta
+  type: file
+  path: _data/pages/offer.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: services_eyebrow
+    label: Nagłówek nad usługami
+    type: string
+  - name: services_title
+    label: Tytuł listy usług
+    type: string
+  - name: services_lead
+    label: Opis listy usług
+    type: text
+  - name: services
+    label: Usługi i warsztaty - dodawaj i edytuj
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: label
+      label: Napis nad usługą (np. 01 / WSPARCIE)
+      type: string
+    - name: title
+      label: Nazwa usługi
+      type: string
+    - name: body_html
+      label: Opis usługi - akapity i listy
+      type: rich-text
+      options:
+        format: html
+        switcher: true
+        media: false
+  - name: callout
+    label: Sekcja zaproszenia do kontaktu
+    type: object
+    fields:
+    - name: eyebrow
+      label: Mały nagłówek
+      type: string
+    - name: title
+      label: Tytuł
+      type: string
+    - name: body
+      label: Opis
+      type: text
+    - name: button_label
+      label: Tekst przycisku
+      type: string
+- name: library
+  label: Biblioteka
+  type: file
+  path: _data/pages/library.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: materials_eyebrow
+    label: Mały nagłówek sekcji
+    type: string
+  - name: materials_title
+    label: Nagłówek materiałów
+    type: string
+  - name: materials_lead
+    label: Opis materiałów
+    type: text
+  - name: materials
+    label: Materiały w bibliotece
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: tag
+      label: Etykieta karty
+      type: string
+    - name: title
+      label: Nazwa materiału
+      type: string
+    - name: description
+      label: Opis materiału
+      type: text
+    - name: image
+      label: Zdjęcie (opcjonalnie)
+      type: image
+      options:
+        media: site_images
+        rename: safe
+    - name: available
+      label: Dostępny / przycisk aktywny
+      type: boolean
+    - name: button_label
+      label: Tekst przycisku
+      type: string
+    - name: button_url
+      label: Adres przycisku (np. sklep.html#dane-do-platnosci)
+      type: string
+    - name: unavailable_text
+      label: Tekst gdy niedostępny
+      type: text
+  - name: audience_eyebrow
+    label: Mały nagłówek Dla kogo
+    type: string
+  - name: audience_title
+    label: Tytuł Dla kogo
+    type: string
+  - name: audience_paragraphs
+    label: Akapit Dla kogo
+    type: text
+    list: true
+  - name: payment_eyebrow
+    label: Nagłówek sekcji płatności
+    type: string
+  - name: payment_title
+    label: Tytuł sekcji płatności
+    type: string
+  - name: payment_lead
+    label: Instrukcja płatności
+    type: text
+- name: shop
+  label: Sklep - produkty i ceny
+  type: file
+  path: _data/pages/shop.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: products_eyebrow
+    label: Mały nagłówek listy
+    type: string
+  - name: products_title
+    label: Tytuł listy produktów
+    type: string
+  - name: products_lead
+    label: Opis zakupu
+    type: text
+  - name: products
+    label: Produkty - dodawaj i edytuj
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: tag
+      label: Etykieta produktu
+      type: string
+    - name: title
+      label: Nazwa produktu
+      type: string
+    - name: description
+      label: Opis produktu
+      type: text
+    - name: image
+      label: Zdjęcie (opcjonalnie)
+      type: image
+      options:
+        media: site_images
+        rename: safe
+    - name: price
+      label: Cena (np. 50 zł)
+      type: string
+    - name: available
+      label: Produkt dostępny do zakupu
+      type: boolean
+    - name: button_label
+      label: Przycisk kupowania
+      type: string
+    - name: unavailable_text
+      label: Informacja gdy niedostępny
+      type: text
+  - name: steps_eyebrow
+    label: Mały nagłówek instrukcji zakupu
+    type: string
+  - name: steps_title
+    label: Tytuł instrukcji zakupu
+    type: string
+  - name: steps
+    label: Etapy zakupu
+    type: object
+    list:
+      collapsible: true
+    fields:
+    - name: title
+      label: Nazwa kroku
+      type: string
+    - name: description
+      label: Opis kroku
+      type: text
+  - name: copyright_note
+    label: Informacja o prawach autorskich
+    type: text
+- name: contact
+  label: Kontakt
+  type: file
+  path: _data/pages/contact.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: contact_eyebrow
+    label: Mały nagłówek kontaktu
+    type: string
+  - name: contact_title
+    label: Tytuł kontaktu
+    type: string
+  - name: details_title
+    label: Tytuł danych kontaktowych
+    type: string
+  - name: professional_title
+    label: Nazwisko i tytuł
+    type: string
+  - name: email_primary
+    label: Główny e-mail
+    type: string
+  - name: email_secondary
+    label: E-mail do konsultacji
+    type: string
+  - name: location_html
+    label: Adres i lokalizacja
+    type: rich-text
+    options:
+      format: html
+      switcher: true
+      media: false
+  - name: hours_html
+    label: Godziny kontaktu
+    type: rich-text
+    options:
+      format: html
+      switcher: true
+      media: false
+  - name: message_eyebrow
+    label: Mały nagłówek wiadomości
+    type: string
+  - name: message_title
+    label: Tytuł wiadomości
+    type: string
+  - name: message_lead
+    label: Opis zachęcający do kontaktu
+    type: text
+  - name: message_info
+    label: Instrukcja kontaktu
+    type: text
+  - name: message_button
+    label: Tekst przycisku e-mail
+    type: string
+  - name: closing_note
+    label: Krótka notatka w stopce kontaktu
+    type: text
+- name: blogpage
+  label: Blog - nagłówki i opisy
+  type: file
+  path: _data/pages/blog.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: list_eyebrow
+    label: Mały nagłówek listy wpisów
+    type: string
+  - name: list_title
+    label: Nagłówek listy wpisów
+    type: string
+  - name: empty_message
+    label: Komunikat gdy nie ma wpisów
+    type: text
+  - name: featured_eyebrow
+    label: Mały nagłówek nad wyróżnionym wpisem
+    type: string
+  - name: post_button
+    label: Tekst przycisku Czytaj artykuł
+    type: string
+  - name: callout
+    label: Sekcja zaproszenia do kontaktu
+    type: object
+    fields:
+    - name: eyebrow
+      label: Mały nagłówek
+      type: string
+    - name: title
+      label: Tytuł
+      type: string
+    - name: body
+      label: Opis
+      type: text
+    - name: button_label
+      label: Tekst przycisku
+      type: string
+- name: payments
+  label: Dane do płatności (wspólne)
+  type: file
+  path: _data/payments.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: eyebrow
+    label: Mały nagłówek przelewu
+    type: string
+  - name: title
+    label: Nagłówek sekcji
+    type: string
+  - name: recipient
+    label: Odbiorca przelewu
+    type: string
+  - name: bank_account
+    label: Numer rachunku bankowego
+    type: string
+  - name: transfer_purpose
+    label: Domyślny tytuł przelewu
+    type: string
+  - name: confirmation_eyebrow
+    label: Mały nagłówek potwierdzenia
+    type: string
+  - name: confirmation_title
+    label: Nagłówek potwierdzenia
+    type: string
+  - name: confirmation_instruction
+    label: Instrukcja wysłania potwierdzenia
+    type: text
+  - name: email
+    label: E-mail do potwierdzenia
+    type: string
+  - name: confirmation_button
+    label: Przycisk e-mail
+    type: string
+  - name: after_payment
+    label: Informacja o udostępnieniu po zaksięgowaniu
+    type: text
+- name: settings
+  label: Logo i stopka
+  type: file
+  path: _data/site.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: brand
+    label: Nazwa strony
+    type: string
+  - name: logo_header
+    label: Logo w nagłówku
+    type: image
+    options:
+      media: site_images
+      rename: safe
+  - name: logo_hero
+    label: Logo na stronie głównej
+    type: image
+    options:
+      media: site_images
+      rename: safe
+  - name: footer
+    label: Stopka / prawa autorskie
+    type: text
+- name: notfound
+  label: Strona 404
+  type: file
+  path: _data/pages/not_found.yml
+  format: yaml
+  operations:
+    delete: false
+  fields:
+  - name: meta_title
+    label: Tytuł karty przeglądarki
+    type: string
+  - name: meta_description
+    label: Opis strony (wyszukiwarki)
+    type: text
+  - name: eyebrow
+    label: Krótki napis nad nagłówkiem
+    type: string
+  - name: title
+    label: Nagłówek strony
+    type: string
+  - name: lead
+    label: Wprowadzenie / opis
+    type: text
+  - name: button
+    label: Przycisk powrotu
+    type: string
