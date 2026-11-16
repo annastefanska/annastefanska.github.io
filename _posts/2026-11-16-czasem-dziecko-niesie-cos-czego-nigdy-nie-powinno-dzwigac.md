@@ -2,7 +2,7 @@
 title: CZASEM DZIECKO NIESIE COŚ, CZEGO NIGDY NIE POWINNO DŹWIGAĆ.
 date: 2026-03-26
 summary: Rodzicu! twoje dziecko NIE jest odpowiednie za regulowanie twoich emocji...
-image: /images/blog/img20261116151424.jpg
+image: /images/blog/file000000002c4c8210b023d9cf35c4d48f.png
 published: true
 featured_archive: false
 ---
