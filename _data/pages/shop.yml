@@ -1,52 +1,123 @@
-meta_description: E-booki, karty pracy PDF i materiały psychoedukacyjne. Cennik i dane do płatności przelewem.
+meta_description: E-booki, karty pracy PDF i materiały psychoedukacyjne. Cennik
+  i dane do płatności przelewem.
 meta_title: Sklep
 eyebrow: Materiały do własnej pracy
 title: Sklep
-lead: Materiały stworzone z myślą o osobach, które chcą rozwijać świadomość, lepiej rozumieć emocje i dbać o siebie również
-  pomiędzy spotkaniami.
+lead: Materiały stworzone z myślą o osobach, które chcą rozwijać świadomość,
+  lepiej rozumieć emocje i dbać o siebie również pomiędzy spotkaniami.
 products_eyebrow: Materiały psychoedukacyjne
 products_title: Wybierz coś dla siebie
-products_lead: Zakup odbywa się przelewem bankowym. Po wybraniu materiału zobaczysz dane do płatności poniżej.
+products_lead: Zakup odbywa się przelewem bankowym. Po wybraniu materiału
+  zobaczysz dane do płatności poniżej.
 products:
-- tag: Płatny materiał
-  title: Księga Czułości
-  description: E-book pełen wiedzy, ćwiczeń, refleksji oraz narzędzi wspierających drogę do siebie.
-  price: 50 zł
-  available: true
-  button_label: Zobacz dane do przelewu
-  unavailable_text: Materiał jeszcze niedostępny
-  image: ''
-- tag: Płatny materiał
-  title: Karty pracy PDF
-  description: Materiały pomagające pracować z emocjami, stresem, lękiem oraz budowaniem poczucia własnej wartości.
-  price: 50 zł
-  available: true
-  button_label: Zobacz dane do przelewu
-  unavailable_text: Materiał jeszcze niedostępny
-  image: ''
-- tag: W przygotowaniu
-  title: Medytacje
-  description: Nagrania wspierające wyciszenie, regulację napięcia oraz kontakt ze sobą.
-  price: Już wkrótce
-  available: false
-  button_label: Zobacz dane do przelewu
-  unavailable_text: Materiał jeszcze niedostępny
-  image: ''
-- tag: Płatny materiał
-  title: Pakiet Czułości
-  description: 'Komplet materiałów: e-book, karty pracy, ćwiczenia i bonus.'
-  price: 149 zł
-  available: true
-  button_label: Zobacz dane do przelewu
-  unavailable_text: Materiał jeszcze niedostępny
-  image: ''
+  - tag: Płatny materiał
+    title: Księga Czułości
+    description: E-book pełen wiedzy, ćwiczeń, refleksji oraz narzędzi wspierających
+      drogę do siebie.
+    price: 50 zł
+    available: true
+    button_label: Zobacz dane do przelewu
+    unavailable_text: Materiał jeszcze niedostępny
+  - tag: Płatny materiał
+    title: Karty pracy PDF
+    description: Materiały pomagające pracować z emocjami, stresem, lękiem oraz
+      budowaniem poczucia własnej wartości.
+    price: 50 zł
+    available: true
+    button_label: Zobacz dane do przelewu
+    unavailable_text: Materiał jeszcze niedostępny
+  - tag: W przygotowaniu
+    title: Medytacje
+    description: Nagrania wspierające wyciszenie, regulację napięcia oraz kontakt ze sobą.
+    price: Już wkrótce
+    available: false
+    button_label: Zobacz dane do przelewu
+    unavailable_text: Materiał jeszcze niedostępny
+  - tag: Płatny materiał
+    title: Pakiet Czułości
+    description: "Komplet materiałów: e-book, karty pracy, ćwiczenia i bonus."
+    price: 149 zł
+    available: true
+    button_label: Zobacz dane do przelewu
+    unavailable_text: Materiał jeszcze niedostępny
+  - tag: Karty pracy do pracy z dziećmi.
+    title: Małe światy. Wielkie emocje.
+    description: >-
+      Przestrzeń Czułości
+
+
+      Małe światy. Wielkie emocje.
+
+
+      48 autorskich kart psychologicznych dla dzieci i młodzieży
+
+
+      Każda wielka historia zaczyna się od małego pomysłu. Nasza zaczęła się od
+      dziecięcej wyobraźni, ciekawości i potrzeby opowiadania o tym, co dzieje
+      się w środku.
+
+
+      Przedstawiam wyjątkowy zestaw 48 autorskich kart psychologicznych, który
+      powstał przy współudziale dzieci, z którymi pracuję. To właśnie ich
+      pomysły, inspiracje, ulubieni bohaterowie i pytania stały się częścią tej
+      kolekcji.
+
+
+      Każda karta przedstawia niezwykłego bohatera i zawiera krótkie pytanie
+      refleksyjne, które zaprasza dziecko do rozmowy o sobie, swoich emocjach,
+      potrzebach, marzeniach i relacjach z innymi.
+
+
+      Do czego służą karty?
+
+
+      - pomagają rozpoznawać i nazywać emocje;
+
+      - wspierają rozmowę o przeżyciach i trudnościach;
+
+      - rozwijają samoświadomość, empatię i umiejętność komunikowania potrzeb;
+
+      - wzmacniają poczucie własnej wartości i sprawczości;
+
+      - pomagają budować relacje i poczucie bezpieczeństwa.
+
+
+      Karty mogą być wykorzystywane podczas konsultacji psychologicznych, zajęć
+      indywidualnych i grupowych, warsztatów psychoedukacyjnych, a także w domu,
+      we wspólnym czasie z dzieckiem.
+
+
+      To zaproszenie do rozmowy, odkrywania siebie i budowania relacji.
+
+
+      Bo czasami jedno proste pytanie otwiera drzwi do bardzo ważnej rozmowy.
+
+
+      Przestrzeń Czułości. Małe światy. Wielkie emocje.
+
+
+      Autorka projektu: Anna Stefańska
+
+      Psycholog | Psychotraumatolog | Psychoonkolog
+
+
+      Zestaw obejmuje 48 kart.
+
+
+      Zapraszam do zakupu. W sprawie zamówienia i szczegółów proszę o kontakt.
+    image: /images/file0000000016c481f48c559dcf0bc9cc94-1.png
+    price: "37 zł "
+    available: true
+    button_label: Zobacz dane do przelewu
 steps_eyebrow: Jak wygląda zakup?
 steps_title: Trzy proste kroki
 steps:
-- title: Wybierz materiał
-  description: Sprawdź opis i cenę interesującego Cię produktu.
-- title: Wykonaj przelew
-  description: Skorzystaj z danych rachunku i w tytule wpisz nazwę wybranego materiału.
-- title: Prześlij potwierdzenie
-  description: Wyślij potwierdzenie wpłaty na podany adres e-mail. Dostęp do materiału będzie możliwy po zaksięgowaniu płatności.
-copyright_note: Materiały są przeznaczone wyłącznie do użytku własnego i objęte ochroną praw autorskich.
+  - title: Wybierz materiał
+    description: Sprawdź opis i cenę interesującego Cię produktu.
+  - title: Wykonaj przelew
+    description: Skorzystaj z danych rachunku i w tytule wpisz nazwę wybranego materiału.
+  - title: Prześlij potwierdzenie
+    description: Wyślij potwierdzenie wpłaty na podany adres e-mail. Dostęp do
+      materiału będzie możliwy po zaksięgowaniu płatności.
+copyright_note: Materiały są przeznaczone wyłącznie do użytku własnego i objęte
+  ochroną praw autorskich.
