@@ -1,9 +1,8 @@
 ---
 title: CZASEM DZIECKO NIESIE COŚ, CZEGO NIGDY NIE POWINNO DŹWIGAĆ.
 date: 2026-03-26
-summary: To my dorośli jesteśmy odpowiedzialni za regulowanie własnych emocji i
-  tworzenie bezpiecznego środowiska dla dzieci!!!
-image: /images/blog/fbimg1794827573798.jpg
+summary: Rodzicu! twoje dziecko NIE jest odpowiednie za regulowanie twoich emocji...
+image: /images/blog/img20261116151424.jpg
 published: true
 featured_archive: false
 ---
