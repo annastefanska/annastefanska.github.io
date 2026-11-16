@@ -1,141 +1,33 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js" defer></script>
-
-<title>Kontakt | Przestrzeń Czułości</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-background:#f8f8f8;
-color:#444;
-line-height:1.8;
-}
-
-.page-banner{
-background:#d9c8ef;
-padding:60px 20px;
-text-align:center;
-color:white;
-}
-
-.page-banner h1{
-font-size:42px;
-margin-bottom:10px;
-}
-
-.page-banner p{
-font-size:20px;
-}
-
-.contact-grid{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(min(100%, 340px),1fr));
-gap:40px;
-}
-
-.box{
-background:white;
-padding:35px;
-border-radius:18px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
-
-.box h2{
-color:#8c5fa8;
-margin-bottom:20px;
-}
-
-.info{
-margin-bottom:20px;
-}
-
-.info strong{
-color:#8c5fa8;
-}
-
-input, textarea{
-width:100%;
-padding:15px;
-margin-top:10px;
-margin-bottom:20px;
-border:1px solid #ddd;
-border-radius:10px;
-font-size:16px;
-}
-
-textarea{
-height:180px;
-resize:vertical;
-}
-
-button{
-background:#8c5fa8;
-color:white;
-padding:15px 35px;
-border:none;
-border-radius:30px;
-font-size:17px;
-cursor:pointer;
-transition:.3s;
-}
-
-button:hover{
-background:#74488f;
-}
-
-footer{
-margin-top:50px;
-background:#8c5fa8;
-color:white;
-text-align:center;
-padding:25px;
-}
-
-
-@media(max-width:680px){
-.page-banner{padding:42px 18px}
-.page-banner h1{font-size:clamp(29px,8vw,38px);line-height:1.2}
-.page-banner p{font-size:16px}
-.contact-grid{grid-template-columns:minmax(0,1fr);padding:28px 0;gap:20px}
-.box{padding:22px 18px}
-input,textarea{max-width:100%;font-size:16px}
-button[type=submit]{width:100%}
-}
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#214638">
+  <meta name="description" content="Dane kontaktowe psycholog Anny Stefańskiej. Konsultacje w Gdańsku i online.">
+  <title>Kontakt | Przestrzeń Czułości – Anna Stefańska</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
-
 <body>
-
+<a class="skip-link" href="#main-content">Przejdź do treści</a>
 <header class="site-header">
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
-      <a href="index.html" class="logo" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" alt="" width="632" height="486">
+      <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="images/logo-header.png" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
         <span class="nav-toggle-text">Menu</span>
       </button>
       <ul class="nav-links" id="primary-menu">
-<li><a href="index.html">Strona główna</a></li>
+        <li><a href="index.html">Strona główna</a></li>
 <li><a href="o-mnie.html">O mnie</a></li>
 <li><a href="oferta.html">Oferta</a></li>
 <li><a href="biblioteka.html">Biblioteka</a></li>
@@ -146,87 +38,32 @@ button[type=submit]{width:100%}
     </nav>
   </div>
 </header>
-
-
-<div class="page-banner">
-
-<h1>Kontakt</h1>
-
-<p>Przestrzeń Czułości</p>
-
-</div>
-
-<div class="container contact-grid">
-
-<div class="box">
-
-<h2>Dane kontaktowe</h2>
-
-<div class="info">
-<strong>👩 Psycholog</strong><br>
-mgr Anna Stefańska
-</div>
-
-<div class="info">
-<strong>📧 E-mail</strong><br>
-kontakt@przestrzenczulosci.pl<br>
-anna.stefanska.psycholog@gmail.com
-</div>
-
-<div class="info">
-<strong>📍 Lokalizacja</strong><br>
-ul. Piotra Czajkowskiego 9/1<br>
-80-169 Gdańsk<br>
-Wizyty stacjonarne oraz online
-</div>
-
-<div class="info">
-<strong>🕒 Godziny kontaktu</strong><br>
-Poniedziałek – Piątek<br>
-9:00 – 18:00
-</div>
-
-<div class="info">
-<strong>💜 Przestrzeń Czułości</strong><br>
-Bezpieczna przestrzeń do rozmowy, zrozumienia i odzyskiwania równowagi.
-</div>
-
-</div>
-
-<div class="box">
-
-<h2>Napisz do mnie</h2>
-
-<form>
-
-<label>Imię i nazwisko</label>
-<input type="text" placeholder="Twoje imię">
-
-<label>Adres e-mail</label>
-<input type="email" placeholder="Twój adres e-mail">
-
-<label>Temat wiadomości</label>
-<input type="text" placeholder="Temat">
-
-<label>Treść wiadomości</label>
-
-<textarea placeholder="Napisz wiadomość..."></textarea>
-
-<button type="submit">
-Wyślij wiadomość
-</button>
-
-</form>
-
-</div>
-
-</div>
-
-<footer>
-
-© 2026 Przestrzeń Czułości | mgr Anna Stefańska
-
+<main id="main-content">
+<section class="page-intro">
+  <div class="container intro-inner">
+    <div><p class="eyebrow">Jestem tutaj</p><h1>Kontakt</h1><p class="lead">Jeżeli potrzebujesz wsparcia albo chcesz zapytać o pierwsze spotkanie, zapraszam do kontaktu. Możesz napisać do mnie bezpośrednio e-mailem.</p></div>
+    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
+  </div>
+</section><section class="section section--white"><div class="container"><div class="section-header"><p class="eyebrow">Napisz lub umów spotkanie</p><h2>Jak się skontaktować?</h2></div>
+  <div class="contact-grid"><div class="contact-card">
+    <h3>Dane kontaktowe</h3>
+    <div class="contact-row"><b>Psycholog</b><span>mgr Anna Stefańska</span></div>
+    <div class="contact-row"><b>E-mail</b><a href="mailto:kontakt@przestrzenczulosci.pl">kontakt@przestrzenczulosci.pl</a><br><a href="mailto:anna.stefanska.psycholog@gmail.com">anna.stefanska.psycholog@gmail.com</a></div>
+    <div class="contact-row"><b>Lokalizacja</b>ul. Piotra Czajkowskiego 9/1<br>80-169 Gdańsk<br>Wizyty stacjonarne oraz online</div>
+    <div class="contact-row"><b>Godziny kontaktu</b>Poniedziałek – piątek<br>9:00–18:00</div>
+  </div>
+  <div class="contact-card"><p class="eyebrow">Pierwszy krok</p><h2>Napisz do mnie</h2>
+    <p class="lead">Możesz krótko opisać, w jakiej sprawie się kontaktujesz, lub po prostu zapytać o możliwość umówienia konsultacji.</p>
+    <p>Po kliknięciu przycisku otworzy się Twój program pocztowy. Nie musisz korzystać z formularza na stronie.</p>
+    <a class="button button--green" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Pytanie%20o%20konsultacj%C4%99">Napisz wiadomość e-mail</a>
+    <div class="contact-note"><p><strong>Przestrzeń Czułości</strong><br>Bezpieczna przestrzeń do rozmowy, zrozumienia i odzyskiwania równowagi.</p></div>
+  </div></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
+  </div>
 </footer>
-
 </body>
 </html>

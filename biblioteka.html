@@ -1,142 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js" defer></script>
-
-<title>Biblioteka Czułości | Przestrzeń Czułości</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-background:#faf8fc;
-color:#444;
-line-height:1.8;
-}
-
-.page-banner{
-background:#d8c4ea;
-color:white;
-padding:70px 20px;
-text-align:center;
-}
-
-.page-banner h1{
-font-size:42px;
-margin-bottom:15px;
-}
-
-.page-banner p{
-font-size:20px;
-max-width:800px;
-margin:auto;
-}
-
-section{
-max-width:1200px;
-margin:auto;
-padding:60px 20px;
-}
-
-h2{
-color:#8c5fa8;
-margin-bottom:20px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(min(100%, 280px),1fr));
-gap:30px;
-margin-top:40px;
-}
-
-.card{
-background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 8px 20px rgba(0,0,0,.08);
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-}
-
-.card h3{
-margin-bottom:15px;
-color:#8c5fa8;
-}
-
-.button{
-display:inline-block;
-margin-top:20px;
-padding:12px 28px;
-background:#8c5fa8;
-color:white;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-}
-
-.button:hover{
-background:#74488f;
-}
-
-.quote{
-background:#efe5f9;
-padding:70px 30px;
-text-align:center;
-font-style:italic;
-font-size:24px;
-color:#6d4d86;
-}
-
-footer{
-background:#8c5fa8;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:60px;
-}
-
-
-@media(max-width:680px){
-.page-banner{padding:42px 18px}
-.page-banner h1{font-size:clamp(29px,8vw,38px);line-height:1.25}
-.page-banner p{font-size:16px;line-height:1.65}
-section{padding:40px 18px}
-.grid{grid-template-columns:minmax(0,1fr);gap:18px;margin-top:25px}
-.card{padding:22px}
-.quote{padding:43px 20px;font-size:19px;line-height:1.6}
-}
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#214638">
+  <meta name="description" content="E-booki, karty pracy i materiały psychoedukacyjne Anny Stefańskiej. Zasady płatności przelewem.">
+  <title>Biblioteka Czułości | Przestrzeń Czułości – Anna Stefańska</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
-
 <body>
-
+<a class="skip-link" href="#main-content">Przejdź do treści</a>
 <header class="site-header">
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
-      <a href="index.html" class="logo" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" alt="" width="632" height="486">
+      <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="images/logo-header.png" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
         <span class="nav-toggle-text">Menu</span>
       </button>
       <ul class="nav-links" id="primary-menu">
-<li><a href="index.html">Strona główna</a></li>
+        <li><a href="index.html">Strona główna</a></li>
 <li><a href="o-mnie.html">O mnie</a></li>
 <li><a href="oferta.html">Oferta</a></li>
 <li><a href="biblioteka.html" aria-current="page">Biblioteka</a></li>
@@ -147,198 +38,39 @@ section{padding:40px 18px}
     </nav>
   </div>
 </header>
-
-
-<div class="page-banner">
-
-<h1>📚 Biblioteka Czułości</h1>
-
-<p>
-
-Miejsce stworzone z myślą o osobach, które chcą lepiej zrozumieć siebie,
-zadbać o swoje emocje oraz korzystać z rzetelnej wiedzy psychologicznej
-również pomiędzy spotkaniami.
-
-</p>
-
-</div>
-
-<section>
-
-<h2>Znajdziesz tutaj</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>📖 E-booki</h3>
-
-<p>
-
-Praktyczne przewodniki pomagające lepiej zrozumieć emocje,
-traumę, relacje oraz budowanie poczucia własnej wartości.
-
-</p>
-
-<a href="sklep.html" class="button">
-
-Przejdź do sklepu
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>📄 Karty pracy PDF</h3>
-
-<p>
-
-Materiały do samodzielnej pracy,
-ćwiczenia terapeutyczne,
-dzienniki emocji oraz narzędzia psychoedukacyjne.
-
-</p>
-
-<a href="sklep.html" class="button">
-
-Zobacz materiały
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🎧 Medytacje i relaksacje</h3>
-
-<p>
-
-Nagrania pomagające regulować układ nerwowy,
-oddech oraz odzyskiwać spokój.
-
-</p>
-
-<a href="#" class="button">
-
-Już wkrótce
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🌿 Ćwiczenia uważności</h3>
-
-<p>
-
-Proste praktyki wspierające kontakt ze sobą,
-regulację emocji oraz codzienną troskę o dobrostan.
-
-</p>
-
-<a href="#" class="button">
-
-Już wkrótce
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>👨‍👩‍👧 Materiały dla rodziców</h3>
-
-<p>
-
-Psychoedukacja, komunikacja z dzieckiem,
-emocje oraz rozwój.
-
-</p>
-
-<a href="#" class="button">
-
-Już wkrótce
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🧠 Polecane książki</h3>
-
-<p>
-
-Publikacje z zakresu psychologii,
-psychotraumatologii,
-psychoonkologii oraz rozwoju osobistego.
-
-</p>
-
-<a href="#" class="button">
-
-Lista książek
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<div class="quote">
-
-„Czasem jedno zdanie, jedno ćwiczenie lub jedna chwila zatrzymania
-mogą stać się początkiem ważnej zmiany.”
-
-</div>
-
-<section>
-
-<h2>Dla kogo jest Biblioteka Czułości?</h2>
-
-<p>
-
-Biblioteka Czułości powstała z myślą o osobach,
-które chcą rozwijać swoją świadomość,
-lepiej rozumieć własne emocje
-oraz korzystać z materiałów wspierających proces zdrowienia,
-samopoznania i rozwoju.
-
-</p>
-
-<br>
-
-<p>
-
-Znajdziesz tutaj zarówno bezpłatne materiały,
-jak i rozbudowane e-booki,
-karty pracy oraz kursy online,
-które będą stopniowo pojawiać się na stronie.
-
-</p>
-
-</section>
-
-<footer>
-
-🌿
-
-Przestrzeń Czułości
-
-<br><br>
-
-„Każdy człowiek potrzebuje miejsca,
-w którym może bezpiecznie odnaleźć drogę do siebie.”
-
-<br><br>
-
-© 2026 | mgr Anna Stefańska
-
+<main id="main-content">
+<section class="page-intro">
+  <div class="container intro-inner">
+    <div><p class="eyebrow">Wiedza i uważność</p><h1>Biblioteka Czułości</h1><p class="lead">Miejsce stworzone z myślą o osobach, które chcą lepiej zrozumieć siebie, zadbać o swoje emocje i korzystać z rzetelnej wiedzy psychologicznej również pomiędzy spotkaniami.</p></div>
+    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
+  </div>
+</section><section class="section section--white"><div class="container"><div class="section-header"><p class="eyebrow">Odkrywaj we własnym tempie</p><h2>Znajdziesz tutaj</h2><p class="lead">Materiały do czytania, refleksji i samodzielnej pracy.</p></div><div class="grid"><article class="card"><div class="card-rule"></div><span class="card-tag">Materiały płatne</span><h3>E-booki</h3><p>Praktyczne przewodniki pomagające lepiej zrozumieć emocje, traumę, relacje oraz budowanie poczucia własnej wartości.</p><div class="card-footer"><a class="button button--outline button--sm" href="sklep.html#dane-do-platnosci">Zobacz w sklepie</a></div></article><article class="card"><div class="card-rule"></div><span class="card-tag">Materiały płatne</span><h3>Karty pracy PDF</h3><p>Materiały do samodzielnej pracy, ćwiczenia, dzienniki emocji oraz narzędzia psychoedukacyjne.</p><div class="card-footer"><a class="button button--outline button--sm" href="sklep.html#dane-do-platnosci">Zobacz w sklepie</a></div></article><article class="card"><div class="card-rule"></div><span class="card-tag card-tag--muted">W przygotowaniu</span><h3>Medytacje i relaksacje</h3><p>Nagrania pomagające regulować napięcie, wspierać oddech i odzyskiwać spokój.</p><div class="card-footer"><span class="muted">Materiały pojawią się wkrótce</span></div></article><article class="card"><div class="card-rule"></div><span class="card-tag card-tag--muted">W przygotowaniu</span><h3>Ćwiczenia uważności</h3><p>Proste praktyki wspierające kontakt ze sobą, regulację emocji oraz codzienną troskę o dobrostan.</p><div class="card-footer"><span class="muted">Materiały pojawią się wkrótce</span></div></article><article class="card"><div class="card-rule"></div><span class="card-tag card-tag--muted">W przygotowaniu</span><h3>Materiały dla rodziców</h3><p>Psychoedukacja, komunikacja z dzieckiem, emocje i rozwój.</p><div class="card-footer"><span class="muted">Materiały pojawią się wkrótce</span></div></article><article class="card"><div class="card-rule"></div><span class="card-tag card-tag--muted">W przygotowaniu</span><h3>Polecane książki</h3><p>Publikacje z zakresu psychologii, psychotraumatologii, psychoonkologii oraz rozwoju osobistego.</p><div class="card-footer"><span class="muted">Materiały pojawią się wkrótce</span></div></article></div></div></section>
+<section class="section section--sand"><div class="narrow centered section-header"><p class="eyebrow">Dla kogo?</p><h2>Dla kogo jest Biblioteka Czułości?</h2>
+<p class="lead">Biblioteka Czułości powstała z myślą o osobach, które chcą rozwijać swoją świadomość, lepiej rozumieć własne emocje oraz korzystać z materiałów wspierających samopoznanie i rozwój.</p>
+<p>Znajdziesz tutaj zarówno bezpłatne materiały, jak i rozbudowane e-booki, karty pracy oraz kursy online, które będą stopniowo pojawiać się na stronie.</p></div></section><section class="section section--white"><div class="container"><div class="section-header"><p class="eyebrow">Płatne materiały</p><h2>Jak opłacić wybrany materiał?</h2><p class="lead">Jeśli wybierasz e-book lub karty pracy, skorzystaj z danych poniżej. W tytule przelewu wpisz nazwę zamawianego materiału.</p></div><div class="payment-panel" id="dane-do-platnosci" aria-label="Dane do płatności przelewem">
+  <div class="payment-main">
+    <p class="eyebrow">Przelew tradycyjny</p><h2>Dane do płatności</h2>
+    <div class="detail"><span class="detail-label">Odbiorca przelewu:</span><div class="detail-value">Anna Stefańska Psycholog</div></div>
+    <div class="detail"><span class="detail-label">Numer rachunku bankowego:</span><div class="detail-value account-number">97 1140 2004 0000 3602 8681 3161</div>
+       <button class="copy-btn" type="button" data-copy="97 1140 2004 0000 3602 8681 3161" aria-label="Kopiuj numer rachunku bankowego">Kopiuj numer rachunku</button></div>
+    <div class="detail"><span class="detail-label">Tytuł przelewu:</span><div class="detail-value" data-payment-title>Zakup materiału / nazwa wybranego materiału</div>
+       <button class="copy-btn" type="button" data-copy-purpose>Kopiuj tytuł przelewu</button></div>
+    <p class="sr-only" role="status" aria-live="polite" data-copy-status></p>
+  </div>
+  <aside class="payment-side">
+    <p class="eyebrow">Krok po płatności</p><h3>Potwierdzenie płatności</h3>
+    <p class="payment-note">Po dokonaniu przelewu proszę o przesłanie potwierdzenia płatności na adres e-mail:</p>
+    <p><a class="payment-email" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">anna.stefanska.psycholog@gmail.com</a></p>
+    <a class="button button--green" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">Wyślij potwierdzenie e-mailem</a>
+    <p class="payment-note">Po zaksięgowaniu wpłaty będzie możliwe uzyskanie dostępu do zakupionego materiału.</p>
+  </aside>
+</div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
+  </div>
 </footer>
-
 </body>
 </html>

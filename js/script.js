@@ -1,33 +1,59 @@
-/* Nawigacja mobilna – Przestrzeń Czułości */
-document.addEventListener('DOMContentLoaded', function () {
-    const toggle = document.querySelector('.nav-toggle');
-    const menu = document.querySelector('#primary-menu');
-    if (!toggle || !menu) return;
+/* Navigation and helpful bank transfer copying; works on static GitHub Pages. */
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('primary-menu');
+  if (toggle && menu) {
+    const setOpen = (open) => {
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Zamknij menu' : 'Otwórz menu');
+      menu.classList.toggle('is-open', open);
+      const text = toggle.querySelector('.nav-toggle-text');
+      if (text) text.textContent = open ? 'Zamknij' : 'Menu';
+    };
+    toggle.addEventListener('click', () => setOpen(toggle.getAttribute('aria-expanded') !== 'true'));
+    menu.addEventListener('click', (e) => { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('click', (e) => { if (!e.target.closest('.site-nav')) setOpen(false); });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { setOpen(false); toggle.focus(); }
+    });
+    window.addEventListener('resize', () => { if (window.innerWidth > 980) setOpen(false); });
+  }
 
-    function setMenu(open) {
-        toggle.setAttribute('aria-expanded', String(open));
-        toggle.setAttribute('aria-label', open ? 'Zamknij menu' : 'Otwórz menu');
-        menu.classList.toggle('is-open', open);
-        const label = toggle.querySelector('.nav-toggle-text');
-        if (label) label.textContent = open ? 'Zamknij' : 'Menu';
-    }
+  const titleDisplay = document.querySelector('[data-payment-title]');
+  document.querySelectorAll('[data-select-product]').forEach(link => {
+    link.addEventListener('click', () => {
+      if (titleDisplay) titleDisplay.textContent = 'Zakup materiału / ' + link.dataset.selectProduct;
+    });
+  });
 
-    toggle.addEventListener('click', function () {
-        setMenu(toggle.getAttribute('aria-expanded') !== 'true');
+  const status = document.querySelector('[data-copy-status]');
+  async function copyText(text, button) {
+    let success = false;
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        success = true;
+      } else {
+        const el = document.createElement('textarea');
+        el.value = text; el.setAttribute('readonly', '');
+        el.style.position = 'fixed'; el.style.left = '-10000px';
+        document.body.appendChild(el); el.select();
+        success = document.execCommand('copy'); el.remove();
+      }
+    } catch (e) { success = false; }
+    if (status) status.textContent = success ? 'Skopiowano do schowka.' : 'Nie można automatycznie skopiować. Zaznacz i skopiuj tekst ręcznie.';
+    const prior = button.dataset.originalLabel || button.textContent;
+    button.dataset.originalLabel = prior;
+    button.textContent = success ? 'Skopiowano ✓' : 'Skopiuj ręcznie';
+    setTimeout(() => { button.textContent = prior; }, 2500);
+  }
+  document.querySelectorAll('[data-copy]').forEach(button => {
+    button.addEventListener('click', () => copyText(button.dataset.copy, button));
+  });
+  document.querySelectorAll('[data-copy-purpose]').forEach(button => {
+    button.addEventListener('click', () => {
+      const title = document.querySelector('[data-payment-title]');
+      if (title) copyText(title.textContent.trim(), button);
     });
-    menu.addEventListener('click', function (event) {
-        if (event.target.closest('a')) setMenu(false);
-    });
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
-            setMenu(false);
-            toggle.focus();
-        }
-    });
-    document.addEventListener('click', function (event) {
-        if (!event.target.closest('.site-nav')) setMenu(false);
-    });
-    window.addEventListener('resize', function () {
-        if (window.innerWidth > 900) setMenu(false);
-    });
+  });
 });

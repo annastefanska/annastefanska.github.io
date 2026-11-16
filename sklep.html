@@ -1,163 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js" defer></script>
-
-<title>Sklep | Przestrzeń Czułości</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-background:#faf8fc;
-color:#444;
-line-height:1.8;
-}
-
-.page-banner{
-background:#d8c4ea;
-color:white;
-text-align:center;
-padding:70px 20px;
-}
-
-.page-banner h1{
-font-size:44px;
-margin-bottom:15px;
-}
-
-.page-banner p{
-font-size:20px;
-max-width:800px;
-margin:auto;
-}
-
-section{
-max-width:1200px;
-margin:auto;
-padding:60px 20px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(min(100%, 280px),1fr));
-gap:30px;
-}
-
-.card{
-
-background:white;
-border-radius:20px;
-padding:30px;
-box-shadow:0 8px 20px rgba(0,0,0,.08);
-transition:.3s;
-
-}
-
-.card:hover{
-transform:translateY(-8px);
-}
-
-.card h2{
-color:#8c5fa8;
-margin-bottom:15px;
-font-size:28px;
-}
-
-.price{
-
-font-size:30px;
-font-weight:bold;
-color:#8c5fa8;
-margin:20px 0;
-
-}
-
-.button{
-
-display:inline-block;
-padding:14px 30px;
-background:#8c5fa8;
-color:white;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-margin-top:20px;
-
-}
-
-.button:hover{
-
-background:#71458a;
-
-}
-
-.info{
-
-background:#efe5f9;
-padding:60px 25px;
-text-align:center;
-
-}
-
-.info h2{
-
-color:#8c5fa8;
-margin-bottom:20px;
-
-}
-
-footer{
-
-background:#8c5fa8;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:60px;
-
-}
-
-
-@media(max-width:680px){
-.page-banner{padding:42px 18px}
-.page-banner h1{font-size:clamp(29px,8vw,38px);line-height:1.2}
-.page-banner p{font-size:16px;line-height:1.65}
-section{padding:40px 18px}
-.grid{grid-template-columns:minmax(0,1fr);gap:18px}
-.card{padding:22px}
-.card h2{font-size:24px}
-.info{padding:45px 20px}
-}
-</style>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#214638">
+  <meta name="description" content="E-booki, karty pracy PDF i materiały psychoedukacyjne. Cennik i dane do płatności przelewem.">
+  <title>Sklep | Przestrzeń Czułości – Anna Stefańska</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
-
 <body>
-
+<a class="skip-link" href="#main-content">Przejdź do treści</a>
 <header class="site-header">
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
-      <a href="index.html" class="logo" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" alt="" width="632" height="486">
+      <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="images/logo-header.png" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
         <span class="nav-toggle-text">Menu</span>
       </button>
       <ul class="nav-links" id="primary-menu">
-<li><a href="index.html">Strona główna</a></li>
+        <li><a href="index.html">Strona główna</a></li>
 <li><a href="o-mnie.html">O mnie</a></li>
 <li><a href="oferta.html">Oferta</a></li>
 <li><a href="biblioteka.html">Biblioteka</a></li>
@@ -168,187 +38,41 @@ section{padding:40px 18px}
     </nav>
   </div>
 </header>
-
-
-<div class="page-banner">
-
-<h1>🛍️ Sklep</h1>
-
-<p>
-
-Materiały stworzone z myślą o osobach,
-które chcą rozwijać swoją świadomość,
-lepiej rozumieć emocje
-oraz dbać o siebie również pomiędzy spotkaniami.
-
-</p>
-
-</div>
-
-<section>
-
-<div class="grid">
-
-<div class="card">
-
-<h2>📘 Księga Czułości</h2>
-
-<p>
-
-E-book pełen wiedzy,
-ćwiczeń,
-refleksji
-oraz narzędzi wspierających drogę do siebie.
-
-</p>
-
-<div class="price">
-
-50 zł
-
-</div>
-
-<a href="#" class="button">
-
-Kup e-book
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h2>📄 Karty pracy PDF</h2>
-
-<p>
-
-Materiały pomagające pracować
-z emocjami,
-stresem,
-lękiem
-oraz budowaniem poczucia własnej wartości.
-
-</p>
-
-<div class="price">
-
-50 zł
-
-</div>
-
-<a href="#" class="button">
-
-Kup PDF
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h2>🎧 Medytacje</h2>
-
-<p>
-
-Nagrania wspierające
-wyciszenie,
-regulację układu nerwowego
-oraz kontakt ze sobą.
-
-</p>
-
-<div class="price">
-
-Już wkrótce
-
-</div>
-
-<a href="#" class="button">
-
-W przygotowaniu
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h2>🌿 Pakiet Czułości</h2>
-
-<p>
-
-Komplet materiałów:
-
-✔ e-book
-
-✔ karty pracy
-
-✔ ćwiczenia
-
-✔ bonus
-
-</p>
-
-<div class="price">
-
-149 zł
-
-</div>
-
-<a href="#" class="button">
-
-Kup pakiet
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<div class="info">
-
-<h2>
-
-Jak wygląda zakup?
-
-</h2>
-
-<p>
-
-Po dokonaniu płatności
-otrzymasz wiadomość e-mail
-z możliwością pobrania zakupionych materiałów.
-
-</p>
-
-<br>
-
-<p>
-
-Materiały są przeznaczone wyłącznie do użytku własnego
-i objęte są ochroną praw autorskich.
-
-</p>
-
-</div>
-
-<footer>
-
-🌿 Przestrzeń Czułości
-
-<br><br>
-
-„Każdy człowiek potrzebuje miejsca,
-w którym może bezpiecznie odnaleźć drogę do siebie.”
-
-<br><br>
-
-© 2026 Anna Stefańska
-
+<main id="main-content">
+<section class="page-intro">
+  <div class="container intro-inner">
+    <div><p class="eyebrow">Materiały do własnej pracy</p><h1>Sklep</h1><p class="lead">Materiały stworzone z myślą o osobach, które chcą rozwijać świadomość, lepiej rozumieć emocje i dbać o siebie również pomiędzy spotkaniami.</p></div>
+    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
+  </div>
+</section><section class="section section--white"><div class="container"><div class="section-header"><p class="eyebrow">Materiały psychoedukacyjne</p><h2>Wybierz coś dla siebie</h2><p class="lead">Zakup odbywa się przelewem bankowym. Po wybraniu materiału zobaczysz dane do płatności poniżej.</p></div><div class="grid grid--two"><article class="card"><div class="card-rule"></div><span class="card-tag">Płatny materiał</span><h3>Księga Czułości</h3><p>E-book pełen wiedzy, ćwiczeń, refleksji oraz narzędzi wspierających drogę do siebie.</p><div class="card-footer"><p class="price">50 zł</p><a class="button button--sm" href="#dane-do-platnosci" data-select-product="Księga Czułości">Zobacz dane do przelewu</a></div></article><article class="card"><div class="card-rule"></div><span class="card-tag">Płatny materiał</span><h3>Karty pracy PDF</h3><p>Materiały pomagające pracować z emocjami, stresem, lękiem oraz budowaniem poczucia własnej wartości.</p><div class="card-footer"><p class="price">50 zł</p><a class="button button--sm" href="#dane-do-platnosci" data-select-product="Karty pracy PDF">Zobacz dane do przelewu</a></div></article><article class="card"><div class="card-rule"></div><span class="card-tag card-tag--muted">W przygotowaniu</span><h3>Medytacje</h3><p>Nagrania wspierające wyciszenie, regulację napięcia oraz kontakt ze sobą.</p><div class="card-footer"><p class="price">Już wkrótce</p><span class="muted">Materiał jeszcze niedostępny</span></div></article><article class="card"><div class="card-rule"></div><span class="card-tag">Płatny materiał</span><h3>Pakiet Czułości</h3><p>Komplet materiałów: e-book, karty pracy, ćwiczenia i bonus.</p><div class="card-footer"><p class="price">149 zł</p><a class="button button--sm" href="#dane-do-platnosci" data-select-product="Pakiet Czułości">Zobacz dane do przelewu</a></div></article></div></div></section>
+<section class="section section--sand"><div class="container"><div class="section-header"><p class="eyebrow">Jak wygląda zakup?</p><h2>Trzy proste kroki</h2></div><div class="purchase-steps">
+  <div class="step-card"><h3>Wybierz materiał</h3><p>Sprawdź opis i cenę interesującego Cię produktu.</p></div>
+  <div class="step-card"><h3>Wykonaj przelew</h3><p>Skorzystaj z danych rachunku i w tytule wpisz nazwę wybranego materiału.</p></div>
+  <div class="step-card"><h3>Prześlij potwierdzenie</h3><p>Wyślij potwierdzenie wpłaty na podany adres e-mail. Dostęp do materiału będzie możliwy po zaksięgowaniu płatności.</p></div>
+</div></div></section><section class="section section--white"><div class="container"><div class="payment-panel" id="dane-do-platnosci" aria-label="Dane do płatności przelewem">
+  <div class="payment-main">
+    <p class="eyebrow">Przelew tradycyjny</p><h2>Dane do płatności</h2>
+    <div class="detail"><span class="detail-label">Odbiorca przelewu:</span><div class="detail-value">Anna Stefańska Psycholog</div></div>
+    <div class="detail"><span class="detail-label">Numer rachunku bankowego:</span><div class="detail-value account-number">97 1140 2004 0000 3602 8681 3161</div>
+       <button class="copy-btn" type="button" data-copy="97 1140 2004 0000 3602 8681 3161" aria-label="Kopiuj numer rachunku bankowego">Kopiuj numer rachunku</button></div>
+    <div class="detail"><span class="detail-label">Tytuł przelewu:</span><div class="detail-value" data-payment-title>Zakup materiału / nazwa wybranego materiału</div>
+       <button class="copy-btn" type="button" data-copy-purpose>Kopiuj tytuł przelewu</button></div>
+    <p class="sr-only" role="status" aria-live="polite" data-copy-status></p>
+  </div>
+  <aside class="payment-side">
+    <p class="eyebrow">Krok po płatności</p><h3>Potwierdzenie płatności</h3>
+    <p class="payment-note">Po dokonaniu przelewu proszę o przesłanie potwierdzenia płatności na adres e-mail:</p>
+    <p><a class="payment-email" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">anna.stefanska.psycholog@gmail.com</a></p>
+    <a class="button button--green" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">Wyślij potwierdzenie e-mailem</a>
+    <p class="payment-note">Po zaksięgowaniu wpłaty będzie możliwe uzyskanie dostępu do zakupionego materiału.</p>
+  </aside>
+</div><p class="muted" style="font-size:.91rem;margin-top:20px">Materiały są przeznaczone wyłącznie do użytku własnego i objęte ochroną praw autorskich.</p></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
+  </div>
 </footer>
-
 </body>
-
 </html>
