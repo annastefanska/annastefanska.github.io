@@ -1,17 +1,22 @@
+---
+layout: null
+permalink: /oferta.html
+---
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#214638">
-  <meta name="description" content="Konsultacje psychologiczne, psychotraumatologia, psychoonkologia, warsztaty i inne obszary wsparcia.">
-  <title>Oferta | Przestrzeń Czułości – Anna Stefańska</title>
+  <meta name="description" content="{{ site.data.pages.offer.meta_description | escape }}">
+  <title>{{ site.data.pages.offer.meta_title | default: page.title | escape }} | Przestrzeń Czułości – Anna Stefańska</title>
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cms-pages.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -20,7 +25,7 @@
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
       <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" width="632" height="486" alt="">
+        <img src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -39,26 +44,29 @@
   </div>
 </header>
 <main id="main-content">
-<section class="page-intro">
-  <div class="container intro-inner">
-    <div><p class="eyebrow">Z uważnością na Twoje potrzeby</p><h1>Moja oferta</h1><p class="lead">Psychologia · Psychotraumatologia · Psychoonkologia · Warsztaty</p></div>
-    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
-  </div>
-</section><section class="section section--white"><div class="container">
-  <div class="section-header"><p class="eyebrow">Obszary wsparcia</p><h2>W czym mogę Ci towarzyszyć?</h2>
-  <p class="lead">Każde spotkanie jest przestrzenią pełną uważności, szacunku i bezpieczeństwa. Wspólnie poszukamy drogi do lepszego zrozumienia siebie, odzyskania równowagi oraz większego spokoju.</p></div>
-  <div class="grid"><article class="card"><div class="card-rule"></div><p class="card-no">01 / WSPARCIE</p><h3>Konsultacje psychologiczne</h3><p>Wsparcie w sytuacjach kryzysowych, trudnościach emocjonalnych, przewlekłym stresie, lęku oraz budowaniu poczucia własnej wartości.</p></article><article class="card"><div class="card-rule"></div><p class="card-no">02 / WSPARCIE</p><h3>Psychotraumatologia</h3><p>Pomoc osobom po doświadczeniach traumatycznych, przemocy psychicznej, stracie oraz długotrwałym stresie.</p></article><article class="card"><div class="card-rule"></div><p class="card-no">03 / WSPARCIE</p><h3>Psychoonkologia</h3><p>Wsparcie psychologiczne dla osób chorujących onkologicznie oraz ich rodzin. Pomoc w odnalezieniu siły i równowagi na każdym etapie leczenia.</p></article><article class="card"><div class="card-rule"></div><p class="card-no">04 / WSPARCIE</p><h3>Muzykoterapia</h3><p>Wykorzystanie muzyki, uważności oraz elementów pracy z ciałem w celu regulacji emocji i redukcji napięcia.</p></article><article class="card"><div class="card-rule"></div><p class="card-no">05 / SPOTKANIA GRUPOWE</p><h3>Warsztaty</h3>
-  <p>Spotkania dla:</p><ul><li>rodziców</li><li>nauczycieli</li><li>specjalistów</li><li>dzieci i młodzieży</li><li>grup wsparcia</li></ul></article>
-<article class="card"><div class="card-rule"></div><p class="card-no">06 / TEMATYKA</p><h3>Tematy warsztatów</h3>
-  <ul><li>stres i wypalenie</li><li>regulacja emocji</li><li>komunikacja</li><li>odporność psychiczna</li><li>poczucie własnej wartości</li><li>psychoedukacja</li></ul></article>
-  </div></div></section><section class="section section--white"><div class="container">
-  <div class="callout"><div><p class="eyebrow">Pierwszy krok</p><h2>Umów konsultację</h2><p>Jeżeli czujesz, że to dobry moment, aby zadbać o siebie, serdecznie zapraszam do kontaktu.</p></div>
-  <a class="button" href="kontakt.html">Skontaktuj się ze mną</a></div>
+<section class="page-intro"><div class="container intro-inner">
+      <div><p class="eyebrow">{{ site.data.pages.offer.eyebrow | escape }}</p>
+      <h1>{{ site.data.pages.offer.title | escape }}</h1>
+      <p class="lead">{{ site.data.pages.offer.lead | escape }}</p></div>
+      <img class="intro-emblem" src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="" aria-hidden="true">
+    </div></section>
+<section class="section section--white"><div class="container">
+  <div class="section-header"><p class="eyebrow">{{ site.data.pages.offer.services_eyebrow | escape }}</p><h2>{{ site.data.pages.offer.services_title | escape }}</h2>
+    <p class="lead">{{ site.data.pages.offer.services_lead | escape }}</p></div>
+  <div class="grid">{% for service in site.data.pages.offer.services %}
+    <article class="card"><div class="card-rule"></div><p class="card-no">{{ service.label | escape }}</p><h3>{{ service.title | escape }}</h3>{{ service.body_html }}</article>
+  {% endfor %}</div>
 </div></section>
+<section class="section section--white"><div class="container"><div class="callout">
+      <div><p class="eyebrow">{{ site.data.pages.offer.callout.eyebrow | escape }}</p>
+      <h2>{{ site.data.pages.offer.callout.title | escape }}</h2>
+      <p>{{ site.data.pages.offer.callout.body | escape }}</p></div>
+      <a class="button" href="kontakt.html">{{ site.data.pages.offer.callout.button_label | escape }}</a>
+    </div></div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div><strong>{{ site.data.site.brand | escape }}</strong><p>{{ site.data.site.footer | escape }}</p></div>
     <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
   </div>
 </footer>

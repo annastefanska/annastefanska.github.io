@@ -1,17 +1,22 @@
+---
+layout: null
+permalink: /o-mnie.html
+---
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#214638">
-  <meta name="description" content="Poznaj doświadczenie, podejście i wykształcenie Anny Stefańskiej, psycholożki i psychotraumatolożki.">
-  <title>O mnie | Przestrzeń Czułości – Anna Stefańska</title>
+  <meta name="description" content="{{ site.data.pages.about.meta_description | escape }}">
+  <title>{{ site.data.pages.about.meta_title | default: page.title | escape }} | Przestrzeń Czułości – Anna Stefańska</title>
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cms-pages.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -20,7 +25,7 @@
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
       <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" width="632" height="486" alt="">
+        <img src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -39,37 +44,30 @@
   </div>
 </header>
 <main id="main-content">
-<section class="page-intro">
-  <div class="container intro-inner">
-    <div><p class="eyebrow">Poznajmy się</p><h1>Trochę o mnie</h1><p class="lead">Jestem psycholożką, magistrem psychologii klinicznej ze specjalizacją psychoterapeutyczną. Wspieram dzieci, młodzież, osoby dorosłe i rodziny w radzeniu sobie z trudnościami emocjonalnymi, kryzysami życiowymi, doświadczeniami traumatycznymi oraz problemami w relacjach. Szczególnie bliskie są mi zagadnienia psychotraumatologii, regulacji emocji, psychologii relacji i odzyskiwania poczucia bezpieczeństwa.</p></div>
-    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
-  </div>
-</section><section class="about-story"><div class="container about-story-row">
-    <div><p class="about-story-number">01</p><p class="eyebrow">Moje doświadczenie</p><h2>Doświadczenie zawodowe</h2></div>
-    <div class="about-story-content"><p>Doświadczenie zawodowe zdobywałam w pracy indywidualnej i grupowej, prowadząc wsparcie psychologiczne, diagnozę psychologiczną, działania psychoedukacyjne oraz grupy wsparcia. Pracowałam z dziećmi i dorosłymi doświadczającymi zaburzeń lękowych, obniżonego nastroju, trudności emocjonalnych, ADHD, spektrum autyzmu oraz problemów w relacjach. Wspieram również rodziców i rodziny mierzące się z wyzwaniami wychowawczymi i emocjonalnymi.</p></div>
-  </div></section><section class="about-story"><div class="container about-story-row">
-    <div><p class="about-story-number">02</p><p class="eyebrow">Obszary zainteresowań</p><h2>Psychotraumatologia i psychoonkologia</h2></div>
-    <div class="about-story-content"><p>Szczególnym obszarem mojego zainteresowania jest psychotraumatologia. Zajmuję się tematyką traumy, PTSD, doświadczeń przemocy, kryzysów psychicznych oraz trudności wynikających z wczesnych doświadczeń relacyjnych. Ważne miejsce w mojej pracy zajmuje również psychoonkologia, wspieranie osób doświadczających choroby nowotworowej oraz ich bliskich, a także towarzyszenie w procesach straty i żałoby.</p></div>
-  </div></section><section class="about-story"><div class="container about-story-row">
-    <div><p class="about-story-number">03</p><p class="eyebrow">Moje podejście</p><h2>Jak pracuję?</h2></div>
-    <div class="about-story-content"><p>W pracy korzystam z wiedzy i narzędzi wywodzących się z różnych podejść psychologicznych, w szczególności terapii poznawczo-behawioralnej (CBT), terapii skoncentrowanej na rozwiązaniach (TSR) oraz terapii schematów. Wykorzystuję również elementy pracy nad regulacją emocji, uważności (mindfulness) i budowaniem samoświadomości. Dobór sposobu pracy dostosowuję do indywidualnych potrzeb, możliwości i sytuacji osoby, z którą pracuję.</p></div>
-  </div></section><section class="about-story"><div class="container about-story-row">
-    <div><p class="about-story-number">04</p><p class="eyebrow">Wiedza i rozwój</p><h2>Wykształcenie i kwalifikacje</h2></div>
-    <div class="about-story-content"><p>Ukończyłam studia magisterskie z psychologii klinicznej ze specjalizacją psychoterapeutyczną. Jestem absolwentką szkoleń z zakresu terapii skoncentrowanej na rozwiązaniach, treningu umiejętności społecznych oraz terapii schematów. Posiadam certyfikat psychotraumatologii i rozwijam kompetencje w ramach szkolenia z psychotraumatologii praktycznej. Obecnie kształcę się również na studiach podyplomowych z psychoonkologii. Regularnie poszerzam wiedzę poprzez szkolenia, konferencje i rozwój zawodowy.</p></div>
-  </div></section><section class="about-story"><div class="container about-story-row">
-    <div><p class="about-story-number">05</p><p class="eyebrow">Relacja i zrozumienie</p><h2>Co jest dla mnie ważne?</h2></div>
-    <div class="about-story-content"><p>W relacji z drugim człowiekiem najważniejsze są dla mnie uważność, autentyczność, szacunek i poczucie bezpieczeństwa. Wierzę, że możliwość opowiedzenia własnej historii, bez oceniania i presji, może stać się ważnym początkiem zmiany. Towarzyszę osobom w lepszym rozumieniu siebie, swoich emocji i potrzeb, odkrywaniu własnych zasobów oraz stopniowym odzyskiwaniu równowagi.</p></div>
-  </div></section><section class="about-story"><div class="container about-story-row">
-    <div><p class="about-story-number">06</p><p class="eyebrow">Moja inicjatywa</p><h2>Przestrzeń Czułości</h2></div>
-    <div class="about-story-content"><p>Tworzę również autorskie materiały psychoedukacyjne i projekty psychologiczne w ramach mojej inicjatywy „Przestrzeń Czułości”. W swojej pracy łączę wiedzę psychologiczną z wrażliwością na indywidualną historię każdego człowieka.</p></div>
-  </div></section><section class="quote-band"><div class="narrow"><blockquote>Wierzę, że każdy człowiek zasługuje na przestrzeń, w której może zostać usłyszany, zrozumiany i potraktowany z uważnością.</blockquote></div></section><section class="section section--white"><div class="container">
-  <div class="callout"><div><p class="eyebrow">Zapraszam do kontaktu</p><h2>Porozmawiajmy</h2><p>Jeśli czujesz, że potrzebujesz wsparcia, możesz napisać i zapytać o pierwsze spotkanie.</p></div>
-  <a class="button" href="kontakt.html">Skontaktuj się ze mną</a></div>
+<section class="page-intro"><div class="container intro-inner">
+      <div><p class="eyebrow">{{ site.data.pages.about.eyebrow | escape }}</p>
+      <h1>{{ site.data.pages.about.title | escape }}</h1>
+      <p class="lead">{{ site.data.pages.about.lead | escape }}</p></div>
+      <img class="intro-emblem" src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="" aria-hidden="true">
+    </div></section>
+{% for section in site.data.pages.about.sections %}
+<section class="about-story"><div class="container about-story-row">
+  <div><p class="about-story-number">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</p>
+  <p class="eyebrow">{{ section.eyebrow | escape }}</p><h2>{{ section.title | escape }}</h2></div>
+  <div class="about-story-content">{{ section.body_html }}</div>
 </div></section>
+{% endfor %}
+<section class="quote-band"><div class="narrow"><blockquote>{{ site.data.pages.about.quote | escape }}</blockquote></div></section>
+<section class="section section--white"><div class="container"><div class="callout">
+      <div><p class="eyebrow">{{ site.data.pages.about.callout.eyebrow | escape }}</p>
+      <h2>{{ site.data.pages.about.callout.title | escape }}</h2>
+      <p>{{ site.data.pages.about.callout.body | escape }}</p></div>
+      <a class="button" href="kontakt.html">{{ site.data.pages.about.callout.button_label | escape }}</a>
+    </div></div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div><strong>{{ site.data.site.brand | escape }}</strong><p>{{ site.data.site.footer | escape }}</p></div>
     <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
   </div>
 </footer>

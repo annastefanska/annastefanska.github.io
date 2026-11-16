@@ -1,17 +1,22 @@
+---
+layout: null
+permalink: /kontakt.html
+---
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#214638">
-  <meta name="description" content="Dane kontaktowe psycholog Anny Stefańskiej. Konsultacje w Gdańsku i online.">
-  <title>Kontakt | Przestrzeń Czułości – Anna Stefańska</title>
+  <meta name="description" content="{{ site.data.pages.contact.meta_description | escape }}">
+  <title>{{ site.data.pages.contact.meta_title | default: page.title | escape }} | Przestrzeń Czułości – Anna Stefańska</title>
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cms-pages.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -20,7 +25,7 @@
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
       <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" width="632" height="486" alt="">
+        <img src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -39,29 +44,32 @@
   </div>
 </header>
 <main id="main-content">
-<section class="page-intro">
-  <div class="container intro-inner">
-    <div><p class="eyebrow">Jestem tutaj</p><h1>Kontakt</h1><p class="lead">Jeżeli potrzebujesz wsparcia albo chcesz zapytać o pierwsze spotkanie, zapraszam do kontaktu. Możesz napisać do mnie bezpośrednio e-mailem.</p></div>
-    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
-  </div>
-</section><section class="section section--white"><div class="container"><div class="section-header"><p class="eyebrow">Napisz lub umów spotkanie</p><h2>Jak się skontaktować?</h2></div>
+<section class="page-intro"><div class="container intro-inner">
+      <div><p class="eyebrow">{{ site.data.pages.contact.eyebrow | escape }}</p>
+      <h1>{{ site.data.pages.contact.title | escape }}</h1>
+      <p class="lead">{{ site.data.pages.contact.lead | escape }}</p></div>
+      <img class="intro-emblem" src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="" aria-hidden="true">
+    </div></section>
+<section class="section section--white"><div class="container"><div class="section-header">
+  <p class="eyebrow">{{ site.data.pages.contact.contact_eyebrow | escape }}</p><h2>{{ site.data.pages.contact.contact_title | escape }}</h2></div>
   <div class="contact-grid"><div class="contact-card">
-    <h3>Dane kontaktowe</h3>
-    <div class="contact-row"><b>Psycholog</b><span>mgr Anna Stefańska</span></div>
-    <div class="contact-row"><b>E-mail</b><a href="mailto:kontakt@przestrzenczulosci.pl">kontakt@przestrzenczulosci.pl</a><br><a href="mailto:anna.stefanska.psycholog@gmail.com">anna.stefanska.psycholog@gmail.com</a></div>
-    <div class="contact-row"><b>Lokalizacja</b>ul. Piotra Czajkowskiego 9/1<br>80-169 Gdańsk<br>Wizyty stacjonarne oraz online</div>
-    <div class="contact-row"><b>Godziny kontaktu</b>Poniedziałek – piątek<br>9:00–18:00</div>
+    <h3>{{ site.data.pages.contact.details_title | escape }}</h3>
+    <div class="contact-row"><b>Psycholog</b><span>{{ site.data.pages.contact.professional_title | escape }}</span></div>
+    <div class="contact-row"><b>E-mail</b><a href="mailto:{{ site.data.pages.contact.email_primary | escape }}">{{ site.data.pages.contact.email_primary | escape }}</a><br><a href="mailto:{{ site.data.pages.contact.email_secondary | escape }}">{{ site.data.pages.contact.email_secondary | escape }}</a></div>
+    <div class="contact-row"><b>Lokalizacja</b>{{ site.data.pages.contact.location_html }}</div>
+    <div class="contact-row"><b>Godziny kontaktu</b>{{ site.data.pages.contact.hours_html }}</div>
   </div>
-  <div class="contact-card"><p class="eyebrow">Pierwszy krok</p><h2>Napisz do mnie</h2>
-    <p class="lead">Możesz krótko opisać, w jakiej sprawie się kontaktujesz, lub po prostu zapytać o możliwość umówienia konsultacji.</p>
-    <p>Po kliknięciu przycisku otworzy się Twój program pocztowy. Nie musisz korzystać z formularza na stronie.</p>
-    <a class="button button--green" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Pytanie%20o%20konsultacj%C4%99">Napisz wiadomość e-mail</a>
-    <div class="contact-note"><p><strong>Przestrzeń Czułości</strong><br>Bezpieczna przestrzeń do rozmowy, zrozumienia i odzyskiwania równowagi.</p></div>
-  </div></div></div></section>
+  <div class="contact-card"><p class="eyebrow">{{ site.data.pages.contact.message_eyebrow | escape }}</p><h2>{{ site.data.pages.contact.message_title | escape }}</h2>
+    <p class="lead">{{ site.data.pages.contact.message_lead | escape }}</p>
+    <p>{{ site.data.pages.contact.message_info | escape }}</p>
+    <a class="button button--green" href="mailto:{{ site.data.pages.contact.email_secondary | escape }}?subject=Pytanie%20o%20konsultacj%C4%99">{{ site.data.pages.contact.message_button | escape }}</a>
+    <div class="contact-note"><p><strong>{{ site.data.site.brand | escape }}</strong><br>{{ site.data.pages.contact.closing_note | escape }}</p></div>
+  </div></div>
+</div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div><strong>{{ site.data.site.brand | escape }}</strong><p>{{ site.data.site.footer | escape }}</p></div>
     <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
   </div>
 </footer>

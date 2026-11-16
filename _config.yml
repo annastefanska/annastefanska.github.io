@@ -1,4 +1,4 @@
-# GitHub Pages + Pages CMS. Static site HTML remains unchanged; only blog uses Jekyll.
+# GitHub Pages + Pages CMS. Jekyll renders CMS data for all pages and posts.
 title: "Przestrzeń Czułości – Anna Stefańska"
 url: "https://przestrzenczulosci.pl"
 baseurl: ""
@@ -19,3 +19,4 @@ exclude:
   - README.md
   - START_TUTAJ.md
   - START_TUTAJ_CMS_BLOG.md
+  - START_TUTAJ_CMS_WSZYSTKIE.md

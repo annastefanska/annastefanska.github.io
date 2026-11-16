@@ -1,17 +1,22 @@
+---
+layout: null
+permalink: /sklep.html
+---
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#214638">
-  <meta name="description" content="E-booki, karty pracy PDF i materiały psychoedukacyjne. Cennik i dane do płatności przelewem.">
-  <title>Sklep | Przestrzeń Czułości – Anna Stefańska</title>
+  <meta name="description" content="{{ site.data.pages.shop.meta_description | escape }}">
+  <title>{{ site.data.pages.shop.meta_title | default: page.title | escape }} | Przestrzeń Czułości – Anna Stefańska</title>
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cms-pages.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -20,7 +25,7 @@
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
       <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" width="632" height="486" alt="">
+        <img src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -39,38 +44,37 @@
   </div>
 </header>
 <main id="main-content">
-<section class="page-intro">
-  <div class="container intro-inner">
-    <div><p class="eyebrow">Materiały do własnej pracy</p><h1>Sklep</h1><p class="lead">Materiały stworzone z myślą o osobach, które chcą rozwijać świadomość, lepiej rozumieć emocje i dbać o siebie również pomiędzy spotkaniami.</p></div>
-    <img class="intro-emblem" src="images/logo-header.png" width="632" height="486" alt="" aria-hidden="true">
-  </div>
-</section><section class="section section--white"><div class="container"><div class="section-header"><p class="eyebrow">Materiały psychoedukacyjne</p><h2>Wybierz coś dla siebie</h2><p class="lead">Zakup odbywa się przelewem bankowym. Po wybraniu materiału zobaczysz dane do płatności poniżej.</p></div><div class="grid grid--two"><article class="card"><div class="card-rule"></div><span class="card-tag">Płatny materiał</span><h3>Księga Czułości</h3><p>E-book pełen wiedzy, ćwiczeń, refleksji oraz narzędzi wspierających drogę do siebie.</p><div class="card-footer"><p class="price">50 zł</p><a class="button button--sm" href="#dane-do-platnosci" data-select-product="Księga Czułości">Zobacz dane do przelewu</a></div></article><article class="card"><div class="card-rule"></div><span class="card-tag">Płatny materiał</span><h3>Karty pracy PDF</h3><p>Materiały pomagające pracować z emocjami, stresem, lękiem oraz budowaniem poczucia własnej wartości.</p><div class="card-footer"><p class="price">50 zł</p><a class="button button--sm" href="#dane-do-platnosci" data-select-product="Karty pracy PDF">Zobacz dane do przelewu</a></div></article><article class="card"><div class="card-rule"></div><span class="card-tag card-tag--muted">W przygotowaniu</span><h3>Medytacje</h3><p>Nagrania wspierające wyciszenie, regulację napięcia oraz kontakt ze sobą.</p><div class="card-footer"><p class="price">Już wkrótce</p><span class="muted">Materiał jeszcze niedostępny</span></div></article><article class="card"><div class="card-rule"></div><span class="card-tag">Płatny materiał</span><h3>Pakiet Czułości</h3><p>Komplet materiałów: e-book, karty pracy, ćwiczenia i bonus.</p><div class="card-footer"><p class="price">149 zł</p><a class="button button--sm" href="#dane-do-platnosci" data-select-product="Pakiet Czułości">Zobacz dane do przelewu</a></div></article></div></div></section>
-<section class="section section--sand"><div class="container"><div class="section-header"><p class="eyebrow">Jak wygląda zakup?</p><h2>Trzy proste kroki</h2></div><div class="purchase-steps">
-  <div class="step-card"><h3>Wybierz materiał</h3><p>Sprawdź opis i cenę interesującego Cię produktu.</p></div>
-  <div class="step-card"><h3>Wykonaj przelew</h3><p>Skorzystaj z danych rachunku i w tytule wpisz nazwę wybranego materiału.</p></div>
-  <div class="step-card"><h3>Prześlij potwierdzenie</h3><p>Wyślij potwierdzenie wpłaty na podany adres e-mail. Dostęp do materiału będzie możliwy po zaksięgowaniu płatności.</p></div>
-</div></div></section><section class="section section--white"><div class="container"><div class="payment-panel" id="dane-do-platnosci" aria-label="Dane do płatności przelewem">
-  <div class="payment-main">
-    <p class="eyebrow">Przelew tradycyjny</p><h2>Dane do płatności</h2>
-    <div class="detail"><span class="detail-label">Odbiorca przelewu:</span><div class="detail-value">Anna Stefańska Psycholog</div></div>
-    <div class="detail"><span class="detail-label">Numer rachunku bankowego:</span><div class="detail-value account-number">97 1140 2004 0000 3602 8681 3161</div>
-       <button class="copy-btn" type="button" data-copy="97 1140 2004 0000 3602 8681 3161" aria-label="Kopiuj numer rachunku bankowego">Kopiuj numer rachunku</button></div>
-    <div class="detail"><span class="detail-label">Tytuł przelewu:</span><div class="detail-value" data-payment-title>Zakup materiału / nazwa wybranego materiału</div>
-       <button class="copy-btn" type="button" data-copy-purpose>Kopiuj tytuł przelewu</button></div>
-    <p class="sr-only" role="status" aria-live="polite" data-copy-status></p>
-  </div>
-  <aside class="payment-side">
-    <p class="eyebrow">Krok po płatności</p><h3>Potwierdzenie płatności</h3>
-    <p class="payment-note">Po dokonaniu przelewu proszę o przesłanie potwierdzenia płatności na adres e-mail:</p>
-    <p><a class="payment-email" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">anna.stefanska.psycholog@gmail.com</a></p>
-    <a class="button button--green" href="mailto:anna.stefanska.psycholog@gmail.com?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">Wyślij potwierdzenie e-mailem</a>
-    <p class="payment-note">Po zaksięgowaniu wpłaty będzie możliwe uzyskanie dostępu do zakupionego materiału.</p>
-  </aside>
-</div><p class="muted" style="font-size:.91rem;margin-top:20px">Materiały są przeznaczone wyłącznie do użytku własnego i objęte ochroną praw autorskich.</p></div></section>
+<section class="page-intro"><div class="container intro-inner">
+      <div><p class="eyebrow">{{ site.data.pages.shop.eyebrow | escape }}</p>
+      <h1>{{ site.data.pages.shop.title | escape }}</h1>
+      <p class="lead">{{ site.data.pages.shop.lead | escape }}</p></div>
+      <img class="intro-emblem" src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="" aria-hidden="true">
+    </div></section>
+<section class="section section--white"><div class="container">
+  <div class="section-header"><p class="eyebrow">{{ site.data.pages.shop.products_eyebrow | escape }}</p><h2>{{ site.data.pages.shop.products_title | escape }}</h2><p class="lead">{{ site.data.pages.shop.products_lead | escape }}</p></div>
+  <div class="grid grid--two">
+  {% for product in site.data.pages.shop.products %}
+    <article class="card"><div class="card-rule"></div>
+    {% if product.image != empty and product.image %}<img class="cms-card-image" src="{{ product.image | relative_url }}" alt="{{ product.title | escape }}" loading="lazy">{% endif %}
+    <span class="card-tag{% unless product.available %} card-tag--muted{% endunless %}">{{ product.tag | escape }}</span>
+    <h3>{{ product.title | escape }}</h3><p>{{ product.description | escape }}</p>
+    <div class="card-footer"><p class="price">{{ product.price | escape }}</p>
+      {% if product.available %}<a class="button button--sm" href="#dane-do-platnosci" data-select-product="{{ product.title | escape }}">{{ product.button_label | escape }}</a>
+      {% else %}<span class="muted">{{ product.unavailable_text | escape }}</span>{% endif %}
+    </div></article>
+  {% endfor %}</div>
+</div></section>
+<section class="section section--sand"><div class="container"><div class="section-header"><p class="eyebrow">{{ site.data.pages.shop.steps_eyebrow | escape }}</p><h2>{{ site.data.pages.shop.steps_title | escape }}</h2></div>
+  <div class="purchase-steps">{% for step in site.data.pages.shop.steps %}<div class="step-card"><h3>{{ step.title | escape }}</h3><p>{{ step.description | escape }}</p></div>{% endfor %}</div>
+</div></section>
+<section class="section section--white"><div class="container">
+  {% include payment-panel.html %}
+  <p class="muted" style="font-size:.91rem;margin-top:20px">{{ site.data.pages.shop.copyright_note | escape }}</p>
+</div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div><strong>{{ site.data.site.brand | escape }}</strong><p>{{ site.data.site.footer | escape }}</p></div>
     <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
   </div>
 </footer>

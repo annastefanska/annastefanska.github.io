@@ -1,0 +1,19 @@
+{% assign payment = site.data.payments %}
+<div class="payment-panel" id="dane-do-platnosci" aria-label="Dane do płatności przelewem">
+  <div class="payment-main">
+    <p class="eyebrow">{{ payment.eyebrow | escape }}</p><h2>{{ payment.title | escape }}</h2>
+    <div class="detail"><span class="detail-label">Odbiorca przelewu:</span><div class="detail-value">{{ payment.recipient | escape }}</div></div>
+    <div class="detail"><span class="detail-label">Numer rachunku bankowego:</span><div class="detail-value account-number">{{ payment.bank_account | escape }}</div>
+      <button class="copy-btn" type="button" data-copy="{{ payment.bank_account | escape }}" aria-label="Kopiuj numer rachunku bankowego">Kopiuj numer rachunku</button></div>
+    <div class="detail"><span class="detail-label">Tytuł przelewu:</span><div class="detail-value" data-payment-title>{{ payment.transfer_purpose | escape }}</div>
+      <button class="copy-btn" type="button" data-copy-purpose>Kopiuj tytuł przelewu</button></div>
+    <p class="sr-only" role="status" aria-live="polite" data-copy-status></p>
+  </div>
+  <aside class="payment-side">
+    <p class="eyebrow">{{ payment.confirmation_eyebrow | escape }}</p><h3>{{ payment.confirmation_title | escape }}</h3>
+    <p class="payment-note">{{ payment.confirmation_instruction | escape }}</p>
+    <p><a class="payment-email" href="mailto:{{ payment.email | escape }}?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">{{ payment.email | escape }}</a></p>
+    <a class="button button--green" href="mailto:{{ payment.email | escape }}?subject=Potwierdzenie%20p%C5%82atno%C5%9Bci%20za%20materia%C5%82">{{ payment.confirmation_button | escape }}</a>
+    <p class="payment-note">{{ payment.after_payment | escape }}</p>
+  </aside>
+</div>

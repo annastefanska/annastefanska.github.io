@@ -1,0 +1,52 @@
+meta_description: E-booki, karty pracy PDF i materiały psychoedukacyjne. Cennik i dane do płatności przelewem.
+meta_title: Sklep
+eyebrow: Materiały do własnej pracy
+title: Sklep
+lead: Materiały stworzone z myślą o osobach, które chcą rozwijać świadomość, lepiej rozumieć emocje i dbać o siebie również
+  pomiędzy spotkaniami.
+products_eyebrow: Materiały psychoedukacyjne
+products_title: Wybierz coś dla siebie
+products_lead: Zakup odbywa się przelewem bankowym. Po wybraniu materiału zobaczysz dane do płatności poniżej.
+products:
+- tag: Płatny materiał
+  title: Księga Czułości
+  description: E-book pełen wiedzy, ćwiczeń, refleksji oraz narzędzi wspierających drogę do siebie.
+  price: 50 zł
+  available: true
+  button_label: Zobacz dane do przelewu
+  unavailable_text: Materiał jeszcze niedostępny
+  image: ''
+- tag: Płatny materiał
+  title: Karty pracy PDF
+  description: Materiały pomagające pracować z emocjami, stresem, lękiem oraz budowaniem poczucia własnej wartości.
+  price: 50 zł
+  available: true
+  button_label: Zobacz dane do przelewu
+  unavailable_text: Materiał jeszcze niedostępny
+  image: ''
+- tag: W przygotowaniu
+  title: Medytacje
+  description: Nagrania wspierające wyciszenie, regulację napięcia oraz kontakt ze sobą.
+  price: Już wkrótce
+  available: false
+  button_label: Zobacz dane do przelewu
+  unavailable_text: Materiał jeszcze niedostępny
+  image: ''
+- tag: Płatny materiał
+  title: Pakiet Czułości
+  description: 'Komplet materiałów: e-book, karty pracy, ćwiczenia i bonus.'
+  price: 149 zł
+  available: true
+  button_label: Zobacz dane do przelewu
+  unavailable_text: Materiał jeszcze niedostępny
+  image: ''
+steps_eyebrow: Jak wygląda zakup?
+steps_title: Trzy proste kroki
+steps:
+- title: Wybierz materiał
+  description: Sprawdź opis i cenę interesującego Cię produktu.
+- title: Wykonaj przelew
+  description: Skorzystaj z danych rachunku i w tytule wpisz nazwę wybranego materiału.
+- title: Prześlij potwierdzenie
+  description: Wyślij potwierdzenie wpłaty na podany adres e-mail. Dostęp do materiału będzie możliwy po zaksięgowaniu płatności.
+copyright_note: Materiały są przeznaczone wyłącznie do użytku własnego i objęte ochroną praw autorskich.

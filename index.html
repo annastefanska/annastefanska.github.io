@@ -1,17 +1,22 @@
+---
+layout: null
+permalink: /index.html
+---
 <!doctype html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#214638">
-  <meta name="description" content="Przestrzeń Czułości. Anna Stefańska, psycholog. Bezpieczna przestrzeń do rozmowy, zrozumienia i odzyskiwania równowagi.">
-  <title>Psycholog | Przestrzeń Czułości – Anna Stefańska</title>
+  <meta name="description" content="{{ site.data.pages.home.meta_description | escape }}">
+  <title>{{ site.data.pages.home.meta_title | default: page.title | escape }} | Przestrzeń Czułości – Anna Stefańska</title>
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cms-pages.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -20,7 +25,7 @@
   <div class="container site-header-inner">
     <nav class="site-nav" aria-label="Menu główne">
       <a class="logo" href="index.html" aria-label="Przestrzeń Czułości – strona główna">
-        <img src="images/logo-header.png" width="632" height="486" alt="">
+        <img src="{{ site.data.site.logo_header | relative_url }}" width="632" height="486" alt="">
       </a>
       <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
         <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -40,20 +45,19 @@
 </header>
 <main id="main-content">
 <section class="hero"><div class="container"><div class="hero-content">
-  <div class="hero-logo"><img src="images/logo-hero.png" width="966" height="810" alt="Anna Stefańska – Psycholog"></div>
-  <h1>Każdy człowiek potrzebuje miejsca, w którym może bezpiecznie odnaleźć drogę do siebie.</h1>
-  <p>Witaj w Przestrzeni Czułości. To miejsce stworzone z myślą o osobach, które pragną zatrzymać się, odnaleźć wewnętrzny spokój i z życzliwością spojrzeć na własną historię.</p>
-  <div class="buttons"><a href="kontakt.html" class="button">Umów pierwsze spotkanie</a><a href="o-mnie.html" class="button button--outline">Poznaj mnie</a></div>
+  <div class="hero-logo"><img src="{{ site.data.site.logo_hero | relative_url }}" width="966" height="810" alt="Anna Stefańska – Psycholog"></div>
+  <h1>{{ site.data.pages.home.title | escape }}</h1>
+  <p>{{ site.data.pages.home.lead | escape }}</p>
+  <div class="buttons"><a href="kontakt.html" class="button">{{ site.data.pages.home.button_contact | escape }}</a><a href="o-mnie.html" class="button button--outline">{{ site.data.pages.home.button_about | escape }}</a></div>
 </div></div></section>
-<section class="welcome"><div class="narrow"><p class="eyebrow">Witaj w Przestrzeni Czułości</p><h2>Cieszę się, że tu jesteś</h2>
-  <p>Niezależnie od tego, z czym dziś przychodzisz, wierzę, że każdy człowiek zasługuje na relację opartą na bezpieczeństwie, uważności i autentycznej obecności.</p>
-  <p>Przestrzeń Czułości powstała z myślą o osobach, które chcą lepiej zrozumieć siebie, odzyskać spokój i odnaleźć drogę do życia zgodnego z własnymi wartościami.</p>
-  <a href="oferta.html" class="button">Poznaj ofertę</a>
+<section class="welcome"><div class="narrow"><p class="eyebrow">{{ site.data.pages.home.welcome_eyebrow | escape }}</p><h2>{{ site.data.pages.home.welcome_title | escape }}</h2>
+  {% for paragraph in site.data.pages.home.welcome_paragraphs %}<p>{{ paragraph | escape }}</p>{% endfor %}
+  <a href="oferta.html" class="button">{{ site.data.pages.home.welcome_button | escape }}</a>
 </div></section>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div><strong>{{ site.data.site.brand | escape }}</strong><p>{{ site.data.site.footer | escape }}</p></div>
     <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
   </div>
 </footer>

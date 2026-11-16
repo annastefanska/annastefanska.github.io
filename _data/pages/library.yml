@@ -1,0 +1,70 @@
+meta_description: E-booki, karty pracy i materiały psychoedukacyjne Anny Stefańskiej. Zasady płatności przelewem.
+meta_title: Biblioteka Czułości
+eyebrow: Wiedza i uważność
+title: Biblioteka Czułości
+lead: Miejsce stworzone z myślą o osobach, które chcą lepiej zrozumieć siebie, zadbać o swoje emocje i korzystać z rzetelnej
+  wiedzy psychologicznej również pomiędzy spotkaniami.
+materials_eyebrow: Odkrywaj we własnym tempie
+materials_title: Znajdziesz tutaj
+materials_lead: Materiały do czytania, refleksji i samodzielnej pracy.
+materials:
+- tag: Materiały płatne
+  title: E-booki
+  description: Praktyczne przewodniki pomagające lepiej zrozumieć emocje, traumę, relacje oraz budowanie poczucia własnej
+    wartości.
+  available: true
+  button_label: Zobacz w sklepie
+  button_url: sklep.html#dane-do-platnosci
+  unavailable_text: Materiały pojawią się wkrótce
+  image: ''
+- tag: Materiały płatne
+  title: Karty pracy PDF
+  description: Materiały do samodzielnej pracy, ćwiczenia, dzienniki emocji oraz narzędzia psychoedukacyjne.
+  available: true
+  button_label: Zobacz w sklepie
+  button_url: sklep.html#dane-do-platnosci
+  unavailable_text: Materiały pojawią się wkrótce
+  image: ''
+- tag: W przygotowaniu
+  title: Medytacje i relaksacje
+  description: Nagrania pomagające regulować napięcie, wspierać oddech i odzyskiwać spokój.
+  available: false
+  button_label: Zobacz w sklepie
+  button_url: sklep.html#dane-do-platnosci
+  unavailable_text: Materiały pojawią się wkrótce
+  image: ''
+- tag: W przygotowaniu
+  title: Ćwiczenia uważności
+  description: Proste praktyki wspierające kontakt ze sobą, regulację emocji oraz codzienną troskę o dobrostan.
+  available: false
+  button_label: Zobacz w sklepie
+  button_url: sklep.html#dane-do-platnosci
+  unavailable_text: Materiały pojawią się wkrótce
+  image: ''
+- tag: W przygotowaniu
+  title: Materiały dla rodziców
+  description: Psychoedukacja, komunikacja z dzieckiem, emocje i rozwój.
+  available: false
+  button_label: Zobacz w sklepie
+  button_url: sklep.html#dane-do-platnosci
+  unavailable_text: Materiały pojawią się wkrótce
+  image: ''
+- tag: W przygotowaniu
+  title: Polecane książki
+  description: Publikacje z zakresu psychologii, psychotraumatologii, psychoonkologii oraz rozwoju osobistego.
+  available: false
+  button_label: Zobacz w sklepie
+  button_url: sklep.html#dane-do-platnosci
+  unavailable_text: Materiały pojawią się wkrótce
+  image: ''
+audience_eyebrow: Dla kogo?
+audience_title: Dla kogo jest Biblioteka Czułości?
+audience_paragraphs:
+- Biblioteka Czułości powstała z myślą o osobach, które chcą rozwijać swoją świadomość, lepiej rozumieć własne emocje oraz
+  korzystać z materiałów wspierających samopoznanie i rozwój.
+- Znajdziesz tutaj zarówno bezpłatne materiały, jak i rozbudowane e-booki, karty pracy oraz kursy online, które będą stopniowo
+  pojawiać się na stronie.
+payment_eyebrow: Płatne materiały
+payment_title: Jak opłacić wybrany materiał?
+payment_lead: Jeśli wybierasz e-book lub karty pracy, skorzystaj z danych poniżej. W tytule przelewu wpisz nazwę zamawianego
+  materiału.

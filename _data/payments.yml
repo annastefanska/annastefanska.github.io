@@ -1,0 +1,13 @@
+eyebrow: Przelew tradycyjny
+title: Dane do płatności
+recipient: Anna Stefańska Psycholog
+bank_account: 97 1140 2004 0000 3602 8681 3161
+transfer_purpose: Zakup materiału / nazwa wybranego materiału
+confirmation_eyebrow: Krok po płatności
+confirmation_title: Potwierdzenie płatności
+confirmation_instruction: 'Po dokonaniu przelewu proszę o przesłanie potwierdzenia
+  płatności na adres e-mail:'
+email: anna.stefanska.psycholog@gmail.com
+confirmation_button: Wyślij potwierdzenie e-mailem
+after_payment: Po zaksięgowaniu wpłaty będzie możliwe uzyskanie dostępu do zakupionego
+  materiału.
