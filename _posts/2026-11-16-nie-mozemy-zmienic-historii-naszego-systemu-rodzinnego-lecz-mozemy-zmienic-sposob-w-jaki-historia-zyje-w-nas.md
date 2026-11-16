@@ -2,10 +2,6 @@
 title: „Nie możemy zmienić historii naszego systemu rodzinnego, lecz możemy
   zmienić sposób, w jaki historia żyje w nas.”
 date: 2026-07-30
-summary: >
-  Każdy z nas niesie w sobie ślady doświadczeń własnego systemu rodzinnego:
-  przekonań, sposobów przeżywania emocji, niewypowiedzianych strat, lojalności i
-  wzorców przekazywanych z pokolenia na pokolenie.
 image: /images/blog/fbimg1794827246529.jpg
 published: true
 featured_archive: false
