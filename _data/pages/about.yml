@@ -1,50 +1,70 @@
-meta_description: Poznaj doświadczenie, podejście i wykształcenie Anny Stefańskiej, psycholożki i psychotraumatolożki.
+meta_description: Poznaj doświadczenie, podejście i wykształcenie Anny
+  Stefańskiej, psycholożki i psychotraumatolożki.
 meta_title: O mnie
-eyebrow: Poznajmy się
+eyebrow: Poznajmy się :)
 title: Trochę o mnie
-lead: Jestem psycholożką, magistrem psychologii klinicznej ze specjalizacją psychoterapeutyczną. Wspieram dzieci, młodzież,
-  osoby dorosłe i rodziny w radzeniu sobie z trudnościami emocjonalnymi, kryzysami życiowymi, doświadczeniami traumatycznymi
-  oraz problemami w relacjach. Szczególnie bliskie są mi zagadnienia psychotraumatologii, regulacji emocji, psychologii relacji
-  i odzyskiwania poczucia bezpieczeństwa.
+lead: Jestem psycholożką, magistrem psychologii klinicznej ze specjalizacją
+  psychoterapeutyczną. Wspieram dzieci, młodzież, osoby dorosłe i rodziny w
+  radzeniu sobie z trudnościami emocjonalnymi, kryzysami życiowymi,
+  doświadczeniami traumatycznymi oraz problemami w relacjach. Szczególnie
+  bliskie są mi zagadnienia psychotraumatologii, regulacji emocji, psychologii
+  relacji i odzyskiwania poczucia bezpieczeństwa.
 sections:
-- eyebrow: Moje doświadczenie
-  title: Doświadczenie zawodowe
-  body_html: <p>Doświadczenie zawodowe zdobywałam w pracy indywidualnej i grupowej, prowadząc wsparcie psychologiczne, diagnozę
-    psychologiczną, działania psychoedukacyjne oraz grupy wsparcia. Pracowałam z dziećmi i dorosłymi doświadczającymi zaburzeń
-    lękowych, obniżonego nastroju, trudności emocjonalnych, ADHD, spektrum autyzmu oraz problemów w relacjach. Wspieram również
-    rodziców i rodziny mierzące się z wyzwaniami wychowawczymi i emocjonalnymi.</p>
-- eyebrow: Obszary zainteresowań
-  title: Psychotraumatologia i psychoonkologia
-  body_html: <p>Szczególnym obszarem mojego zainteresowania jest psychotraumatologia. Zajmuję się tematyką traumy, PTSD, doświadczeń
-    przemocy, kryzysów psychicznych oraz trudności wynikających z wczesnych doświadczeń relacyjnych. Ważne miejsce w mojej
-    pracy zajmuje również psychoonkologia, wspieranie osób doświadczających choroby nowotworowej oraz ich bliskich, a także
-    towarzyszenie w procesach straty i żałoby.</p>
-- eyebrow: Moje podejście
-  title: Jak pracuję?
-  body_html: <p>W pracy korzystam z wiedzy i narzędzi wywodzących się z różnych podejść psychologicznych, w szczególności
-    terapii poznawczo-behawioralnej (CBT), terapii skoncentrowanej na rozwiązaniach (TSR) oraz terapii schematów. Wykorzystuję
-    również elementy pracy nad regulacją emocji, uważności (mindfulness) i budowaniem samoświadomości. Dobór sposobu pracy
-    dostosowuję do indywidualnych potrzeb, możliwości i sytuacji osoby, z którą pracuję.</p>
-- eyebrow: Wiedza i rozwój
-  title: Wykształcenie i kwalifikacje
-  body_html: <p>Ukończyłam studia magisterskie z psychologii klinicznej ze specjalizacją psychoterapeutyczną. Jestem absolwentką
-    szkoleń z zakresu terapii skoncentrowanej na rozwiązaniach, treningu umiejętności społecznych oraz terapii schematów.
-    Posiadam certyfikat psychotraumatologii i rozwijam kompetencje w ramach szkolenia z psychotraumatologii praktycznej. Obecnie
-    kształcę się również na studiach podyplomowych z psychoonkologii. Regularnie poszerzam wiedzę poprzez szkolenia, konferencje
-    i rozwój zawodowy.</p>
-- eyebrow: Relacja i zrozumienie
-  title: Co jest dla mnie ważne?
-  body_html: <p>W relacji z drugim człowiekiem najważniejsze są dla mnie uważność, autentyczność, szacunek i poczucie bezpieczeństwa.
-    Wierzę, że możliwość opowiedzenia własnej historii, bez oceniania i presji, może stać się ważnym początkiem zmiany. Towarzyszę
-    osobom w lepszym rozumieniu siebie, swoich emocji i potrzeb, odkrywaniu własnych zasobów oraz stopniowym odzyskiwaniu
-    równowagi.</p>
-- eyebrow: Moja inicjatywa
-  title: Przestrzeń Czułości
-  body_html: <p>Tworzę również autorskie materiały psychoedukacyjne i projekty psychologiczne w ramach mojej inicjatywy „Przestrzeń
-    Czułości”. W swojej pracy łączę wiedzę psychologiczną z wrażliwością na indywidualną historię każdego człowieka.</p>
-quote: Wierzę, że każdy człowiek zasługuje na przestrzeń, w której może zostać usłyszany, zrozumiany i potraktowany z uważnością.
+  - eyebrow: Moje doświadczenie
+    title: Doświadczenie zawodowe
+    body_html: <p>Doświadczenie zawodowe zdobywałam w pracy indywidualnej i
+      grupowej, prowadząc wsparcie psychologiczne, diagnozę psychologiczną,
+      działania psychoedukacyjne oraz grupy wsparcia. Pracowałam z dziećmi i
+      dorosłymi doświadczającymi zaburzeń lękowych, obniżonego nastroju,
+      trudności emocjonalnych, ADHD, spektrum autyzmu oraz problemów w
+      relacjach. Wspieram również rodziców i rodziny mierzące się z wyzwaniami
+      wychowawczymi i emocjonalnymi.</p>
+  - eyebrow: Obszary zainteresowań
+    title: Psychotraumatologia i psychoonkologia
+    body_html: <p>Szczególnym obszarem mojego zainteresowania jest
+      psychotraumatologia. Zajmuję się tematyką traumy, PTSD, doświadczeń
+      przemocy, kryzysów psychicznych oraz trudności wynikających z wczesnych
+      doświadczeń relacyjnych. Ważne miejsce w mojej pracy zajmuje również
+      psychoonkologia, wspieranie osób doświadczających choroby nowotworowej
+      oraz ich bliskich, a także towarzyszenie w procesach straty i żałoby.</p>
+  - eyebrow: Moje podejście
+    title: Jak pracuję?
+    body_html: <p>W pracy korzystam z wiedzy i narzędzi wywodzących się z różnych
+      podejść psychologicznych, w szczególności terapii poznawczo-behawioralnej
+      (CBT), terapii skoncentrowanej na rozwiązaniach (TSR) oraz terapii
+      schematów. Wykorzystuję również elementy pracy nad regulacją emocji,
+      uważności (mindfulness) i budowaniem samoświadomości. Dobór sposobu pracy
+      dostosowuję do indywidualnych potrzeb, możliwości i sytuacji osoby, z
+      którą pracuję.</p>
+  - eyebrow: Wiedza i rozwój
+    title: Wykształcenie i kwalifikacje
+    body_html: <p>Ukończyłam studia magisterskie z psychologii klinicznej ze
+      specjalizacją psychoterapeutyczną. Jestem absolwentką szkoleń z zakresu
+      terapii skoncentrowanej na rozwiązaniach, treningu umiejętności
+      społecznych oraz terapii schematów. Posiadam certyfikat
+      psychotraumatologii i rozwijam kompetencje w ramach szkolenia z
+      psychotraumatologii praktycznej. Obecnie kształcę się również na studiach
+      podyplomowych z psychoonkologii. Regularnie poszerzam wiedzę poprzez
+      szkolenia, konferencje i rozwój zawodowy.</p>
+  - eyebrow: Relacja i zrozumienie
+    title: Co jest dla mnie ważne?
+    body_html: <p>W relacji z drugim człowiekiem najważniejsze są dla mnie uważność,
+      autentyczność, szacunek i poczucie bezpieczeństwa. Wierzę, że możliwość
+      opowiedzenia własnej historii, bez oceniania i presji, może stać się
+      ważnym początkiem zmiany. Towarzyszę osobom w lepszym rozumieniu siebie,
+      swoich emocji i potrzeb, odkrywaniu własnych zasobów oraz stopniowym
+      odzyskiwaniu równowagi.</p>
+  - eyebrow: Moja inicjatywa
+    title: Przestrzeń Czułości
+    body_html: <p>Tworzę również autorskie materiały psychoedukacyjne i projekty
+      psychologiczne w ramach mojej inicjatywy „Przestrzeń Czułości”. W swojej
+      pracy łączę wiedzę psychologiczną z wrażliwością na indywidualną historię
+      każdego człowieka.</p>
+quote: Wierzę, że każdy człowiek zasługuje na przestrzeń, w której może zostać
+  usłyszany, zrozumiany i potraktowany z uważnością.
 callout:
   eyebrow: Zapraszam do kontaktu
   title: Porozmawiajmy
-  body: Jeśli czujesz, że potrzebujesz wsparcia, możesz napisać i zapytać o pierwsze spotkanie.
+  body: Jeśli czujesz, że potrzebujesz wsparcia, możesz napisać i zapytać o
+    pierwsze spotkanie.
   button_label: Skontaktuj się ze mną
