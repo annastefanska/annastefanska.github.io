@@ -1,0 +1,21 @@
+# GitHub Pages + Pages CMS. Static site HTML remains unchanged; only blog uses Jekyll.
+title: "Przestrzeń Czułości – Anna Stefańska"
+url: "https://przestrzenczulosci.pl"
+baseurl: ""
+lang: pl
+timezone: Europe/Warsaw
+markdown: kramdown
+permalink: /blog/:title/
+future: false
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: wpis
+
+exclude:
+  - README.md
+  - START_TUTAJ.md
+  - START_TUTAJ_CMS_BLOG.md

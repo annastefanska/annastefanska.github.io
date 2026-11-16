@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#214638">
+  <meta name="description" content="{{ page.summary | default: page.title | strip_html | escape }}">
+  <title>{{ page.title | escape }} | Przestrzeń Czułości – Anna Stefańska</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/blog-cms.css' | relative_url }}">
+  <script src="{{ '/js/script.js' | relative_url }}" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Przejdź do treści</a>
+<header class="site-header">
+  <div class="container site-header-inner">
+    <nav class="site-nav" aria-label="Menu główne">
+      <a class="logo" href="{{ '/index.html' | relative_url }}" aria-label="Przestrzeń Czułości – strona główna">
+        <img src="{{ '/images/logo-header.png' | relative_url }}" width="632" height="486" alt="">
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-menu" aria-expanded="false" aria-label="Otwórz menu">
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="nav-toggle-text">Menu</span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="{{ '/index.html' | relative_url }}">Strona główna</a></li>
+        <li><a href="{{ '/o-mnie.html' | relative_url }}">O mnie</a></li>
+        <li><a href="{{ '/oferta.html' | relative_url }}">Oferta</a></li>
+        <li><a href="{{ '/biblioteka.html' | relative_url }}">Biblioteka</a></li>
+        <li><a href="{{ '/blog.html' | relative_url }}" aria-current="page">Blog</a></li>
+        <li><a href="{{ '/sklep.html' | relative_url }}">Sklep</a></li>
+        <li><a href="{{ '/kontakt.html' | relative_url }}">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+  <section class="page-intro">
+    <div class="container intro-inner">
+      <div>
+        <p class="eyebrow">Przestrzeń Czułości / Blog</p>
+        <h1>{{ page.title | escape }}</h1>
+        <p class="lead">{% if page.category %}{{ page.category | escape }} · {% endif %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d.%m.%Y' }}</time></p>
+      </div>
+      <img class="intro-emblem" src="{{ '/images/logo-header.png' | relative_url }}" width="632" height="486" alt="" aria-hidden="true">
+    </div>
+  </section>
+  <article class="section section--white">
+    <div class="narrow article-shell">
+      {% if page.image %}
+      <img class="article-image" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" loading="eager">
+      {% endif %}
+      {% if page.summary %}
+      <p class="lead cms-article-lead">{{ page.summary | escape }}</p>
+      {% endif %}
+      <div class="cms-article-body">{{ content }}</div>
+      <div class="author"><strong>Anna Stefańska</strong><p>Psycholog · Psychotraumatolog</p></div>
+      <a href="{{ '/blog.html' | relative_url }}" class="button button--outline">← Powrót do bloga</a>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div><strong>Przestrzeń Czułości</strong><p>© 2026 mgr Anna Stefańska. Z uważnością na Twoją historię.</p></div>
+    <div class="footer-links">
+      <a href="{{ '/o-mnie.html' | relative_url }}">O mnie</a>
+      <a href="{{ '/oferta.html' | relative_url }}">Oferta</a>
+      <a href="{{ '/biblioteka.html' | relative_url }}">Biblioteka</a>
+      <a href="{{ '/kontakt.html' | relative_url }}">Kontakt</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

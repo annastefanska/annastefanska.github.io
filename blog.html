@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="pl">
 <head>
@@ -12,6 +15,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/blog-cms.css">
   <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -46,6 +50,27 @@
   </div>
 </section><section class="section section--white"><div class="container">
   <div class="section-header"><p class="eyebrow">Najnowsze teksty</p><h2>Do przeczytania</h2></div>
+  {% if site.posts.size > 0 %}
+  <div class="cms-posts-grid">
+  {% for post in site.posts %}
+    <article class="cms-post-card">
+      {% if post.image %}
+      <a href="{{ post.url | relative_url }}" aria-label="Przeczytaj: {{ post.title | escape }}">
+        <img class="cms-post-card-image" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+      </a>
+      {% endif %}
+      <div class="cms-post-card-body">
+        {% if post.category %}<p class="card-tag">{{ post.category | escape }}</p>{% endif %}
+        <p class="article-date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d.%m.%Y' }}</time></p>
+        <h3>{{ post.title | escape }}</h3>
+        {% if post.summary %}<p class="cms-post-summary">{{ post.summary | escape }}</p>{% endif %}
+        <a class="button button--sm" href="{{ post.url | relative_url }}">Czytaj artykuł</a>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+  {% endif %}
+  <p class="eyebrow cms-archive-label">Z naszego archiwum</p>
   <article class="article-feature"><img class="article-feature-image" src="images/zaloba-dziecka.jpg" alt="Ilustracja artykułu o przeżywaniu żałoby przez dzieci" loading="lazy" width="965" height="810">
     <div class="article-feature-body"><p class="eyebrow">Emocje i dzieci</p><p class="article-date"><time datetime="2026-02-10">10 lutego 2026</time></p>
       <h2>Nie bójmy się dziecięcego smutku. Żałoba oczami dziecka</h2>
