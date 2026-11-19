@@ -1,6 +1,6 @@
 ---
 title: RANA PORZUCENIA – BÓL, KTÓRY UCZY SAMOTNOŚCI
-date: 2026-11-19
+date: 2026-02-08
 image: /images/blog/fbimg1795091183718.jpg
 published: true
 featured_archive: false
