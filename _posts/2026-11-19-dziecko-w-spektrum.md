@@ -15,8 +15,6 @@ Przemoc wobec dzieci ze spektrum rzadko krzyczy. Często jest cicha. Ukryta...Co
 
 Ale najbardziej bezbronne wobec tego wszystkiego są dzieci w głębokim spektrum, te niemówiące. Te, które nie mogą powiedzieć: „coś jest nie tak”, „ktoś mnie zranił”, „boję się”. One najczęściej padają ofiarą systemu, który miał je chronić. I to one najczęściej dostają kolejną dawkę traumy - bo nie mają narzędzi, aby zaalarmować świat. Dlatego musimy uczyć się słuchać ich ciała. Patrzeć na drżenie rąk, na sztywność, na napięcie karku, na zastyganie, unikanie, wycofanie. Ciało takich dzieci mówi wszystko. I nigdy nie kłamie.
 
-
-
 DRODZY RODZICE!!
 
 Jeśli widzicie u swojego dziecka nagłe zmiany: wycofanie, regres, lęk, agresję, problemy ze snem, napięcie po powrocie z placówki - proszę, zatrzymajcie się przy tym. Dziecko rzadko powie wprost, że coś się dzieje, ale jego zachowanie potrafi wołać bardzo głośno.
