@@ -17,8 +17,8 @@ message_eyebrow: Pierwszy krok
 message_title: Napisz do mnie
 message_lead: Możesz krótko opisać, w jakiej sprawie się kontaktujesz, lub po
   prostu zapytać o możliwość umówienia konsultacji.
-message_info: Po kliknięciu przycisku otworzy się Twój program pocztowy. Nie
-  musisz korzystać z formularza na stronie.
+message_info: "Wypełnij poniższy formularz, aby wysłać wiadomość. Odpowiem na podany adres e-mail."
 message_button: Napisz wiadomość e-mail
 closing_note: Bezpieczna przestrzeń do rozmowy, zrozumienia i odzyskiwania równowagi.
 email_secondary: kontakt@przestrzenczulosci.pl
+form_endpoint: "https://send.webforms.to/wft_ewcmi9a99i2w5yanjt4a"
