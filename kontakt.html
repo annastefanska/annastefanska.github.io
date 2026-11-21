@@ -55,14 +55,29 @@ permalink: /kontakt.html
   <div class="contact-grid"><div class="contact-card">
     <h3>{{ site.data.pages.contact.details_title | escape }}</h3>
     <div class="contact-row"><b>Psycholog</b><span>{{ site.data.pages.contact.professional_title | escape }}</span></div>
-    <div class="contact-row"><b>E-mail</b><a href="mailto:{{ site.data.pages.contact.email_primary | escape }}">{{ site.data.pages.contact.email_primary | escape }}</a><br><a href="mailto:{{ site.data.pages.contact.email_secondary | escape }}">{{ site.data.pages.contact.email_secondary | escape }}</a></div>
-    <div class="contact-row"><b>Lokalizacja</b>{{ site.data.pages.contact.location_html }}</div>
+    <div class="contact-row"><b>E-mail</b><a href="mailto:{{ site.data.pages.contact.email_primary | escape }}">{{ site.data.pages.contact.email_primary | escape }}</a><br>{% if site.data.pages.contact.email_secondary and site.data.pages.contact.email_secondary != site.data.pages.contact.email_primary %}<a href="mailto:{{ site.data.pages.contact.email_secondary | escape }}">{{ site.data.pages.contact.email_secondary | escape }}</a>{% endif %}</div>
+    <div class="contact-row"><b>Lokalizacja</b>{{ site.data.pages.contact.location_html }}
+<p><a class="button button--green" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=Piotra%20Czajkowskiego%209%2F1%2C%2080-169%20Gda%C5%84sk%2C%20Polska">Jak dojechać — Gdańsk</a></p>
+<p><a class="button button--green" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karnkowskiego%2014%2F2%2C%2081-202%20Gdynia%2C%20Polska">Jak dojechać — Gdynia</a></p></div>
     <div class="contact-row"><b>Godziny kontaktu</b>{{ site.data.pages.contact.hours_html }}</div>
   </div>
   <div class="contact-card"><p class="eyebrow">{{ site.data.pages.contact.message_eyebrow | escape }}</p><h2>{{ site.data.pages.contact.message_title | escape }}</h2>
     <p class="lead">{{ site.data.pages.contact.message_lead | escape }}</p>
     <p>{{ site.data.pages.contact.message_info | escape }}</p>
-    <a class="button button--green" href="mailto:{{ site.data.pages.contact.email_secondary | escape }}?subject=Pytanie%20o%20konsultacj%C4%99">{{ site.data.pages.contact.message_button | escape }}</a>
+    {% if site.data.pages.contact.form_endpoint and site.data.pages.contact.form_endpoint != "" %}
+    <form class="anna-contact-form" method="POST" action="{{ site.data.pages.contact.form_endpoint | escape }}">
+      <input type="text" name="gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="anna-honeypot"><label>Imię <input type="text" name="name" required maxlength="80" autocomplete="given-name"></label>
+      <label>Adres e-mail <input type="email" name="email" required maxlength="200" autocomplete="email"></label>
+      <label>Temat <select name="temat" required><option value="">Wybierz temat</option><option>Umówienie wizyty</option><option>Pytanie o ofertę</option><option>Inna sprawa organizacyjna</option></select></label>
+      <label>Wiadomość <textarea name="message" required rows="5" maxlength="3000"></textarea></label>
+      <p class="anna-privacy-hint">Formularz służy wyłącznie do spraw organizacyjnych. Nie wpisuj informacji o stanie zdrowia, diagnoz, objawów ani innych danych wrażliwych. Administratorem danych jest Anna Stefańska Psycholog. Dane są przetwarzane w celu udzielenia odpowiedzi na zapytanie. <a href="polityka-prywatnosci.html">Informacje o przetwarzaniu danych</a>.</p>
+      <button class="button button--green" type="submit">Wyślij wiadomość</button>
+      <p class="anna-privacy-hint">Możesz również napisać bezpośrednio na <a href="mailto:kontakt@przestrzenczulosci.pl">kontakt@przestrzenczulosci.pl</a>.</p>
+    </form>
+    {% else %}
+    <p class="anna-privacy-hint">Formularz kontaktowy jest przygotowywany. Do tego czasu napisz bezpośrednio na adres e-mail.</p>
+    <a class="button button--green" href="mailto:{{ site.data.pages.contact.email_primary | escape }}?subject=Pytanie%20o%20konsultacj%C4%99">Napisz wiadomość e-mail</a>
+    {% endif %}
     <div class="contact-note"><p><strong>{{ site.data.site.brand | escape }}</strong><br>{{ site.data.pages.contact.closing_note | escape }}</p></div>
   </div></div>
 </div></section>
@@ -70,7 +85,7 @@ permalink: /kontakt.html
 <footer class="site-footer">
   <div class="container footer-inner">
     <div><strong>{{ site.data.site.brand | escape }}</strong><p>{{ site.data.site.footer | escape }}</p></div>
-    <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a></div>
+    <div class="footer-links"><a href="o-mnie.html">O mnie</a><a href="oferta.html">Oferta</a><a href="biblioteka.html">Biblioteka</a><a href="kontakt.html">Kontakt</a><a href="polityka-prywatnosci.html">Polityka prywatności</a></div>
   </div>
 </footer>
 </body>
