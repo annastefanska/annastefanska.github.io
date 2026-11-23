@@ -1,0 +1,136 @@
+
+---
+layout: null
+permalink: /dziekuje.html
+---
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#214638">
+  <title>Dziękuję za wiadomość | Przestrzeń Czułości</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cms-pages.css">
+  <script src="js/script.js" defer></script>
+  <style>
+    .thanks-section {
+      padding: 90px 20px 110px;
+      min-height: 65vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #faf8f5;
+    }
+    .thanks-card {
+      width: 100%;
+      max-width: 650px;
+      padding: 65px 45px;
+      background: #fff;
+      border: 1px solid #e8ded2;
+      border-radius: 24px;
+      box-shadow: 0 15px 45px rgba(33,70,56,.06);
+      text-align: center;
+    }
+    .thanks-symbol {
+      width: 68px;
+      height: 68px;
+      margin: 0 auto 28px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #eaf2ed;
+      color: #214638;
+      font-size: 36px;
+    }
+    .thanks-card h1 {
+      margin: 0 0 22px;
+      color: #96713c;
+      font-size: clamp(30px, 5vw, 43px);
+      line-height: 1.2;
+    }
+    .thanks-card p {
+      max-width: 480px;
+      margin: 0 auto 18px;
+      line-height: 1.8;
+      color: #34483e;
+    }
+    .thanks-card .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .thanks-section { padding: 45px 16px 70px; }
+      .thanks-card { padding: 45px 24px; }
+    }
+  </style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Przejdź do treści</a>
+
+<header class="site-header">
+  <div class="container site-header-inner">
+    <nav class="site-nav" aria-label="Menu główne">
+      <a class="logo" href="index.html"
+         aria-label="Przestrzeń Czułości – strona główna">
+        <img src="{{ site.data.site.logo_header | relative_url }}"
+             width="632" height="486" alt="">
+      </a>
+      <button class="nav-toggle" type="button"
+              aria-controls="primary-menu"
+              aria-expanded="false" aria-label="Otwórz menu">
+        <span class="nav-toggle-icon" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="nav-toggle-text">Menu</span>
+      </button>
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="o-mnie.html">O mnie</a></li>
+        <li><a href="oferta.html">Oferta</a></li>
+        <li><a href="biblioteka.html">Biblioteka</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="sklep.html">Sklep</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="thanks-section">
+    <div class="thanks-card">
+      <div class="thanks-symbol" aria-hidden="true">✓</div>
+      <p class="eyebrow">PRZESTRZEŃ CZUŁOŚCI</p>
+      <h1>Dziękuję za wiadomość!</h1>
+      <p>Twoja wiadomość została pomyślnie wysłana.</p>
+      <p>Dziękuję za kontakt i zaufanie.
+         Odpowiem najszybciej, jak to możliwe.</p>
+      <a class="button button--green" href="index.html">
+        Wróć na stronę główną
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>{{ site.data.site.brand | escape }}</strong>
+      <p>{{ site.data.site.footer | escape }}</p>
+    </div>
+    <div class="footer-links">
+      <a href="o-mnie.html">O mnie</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="biblioteka.html">Biblioteka</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
