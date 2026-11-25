@@ -27,7 +27,7 @@ services:
     title: Muzykoterapia
     body_html: <p>Wykorzystanie muzyki, uważności oraz elementów pracy z ciałem w
       celu regulacji emocji i redukcji napięcia.</p>
-  - label: 05 / SPOTKANIA GRUPOWE
+  - label: 06 / SPOTKANIA GRUPOWE
     title: Warsztaty
     body_html: <p>Spotkania
       dla:</p><ul><li><p>rodziców</p></li><li><p>nauczycieli</p></li><li><p>specjalistów</p></li><li><p>dzieci
