@@ -10,15 +10,16 @@ details_title: Dane kontaktowe
 professional_title: mgr Anna Stefańska
 email_primary: kontakt@przestrzenczulosci.pl
 location_html: <p>Adres 1. ul. Piotra Czajkowskiego 9/1<br>80-169
-  Gdańsk</p><p>Adres 2. ul. Karnkowskiego 14/2 , 81-202 Gdynia</p><p>Adres 3.
+  Gdańsk</p><p>Adres 2. ul. Karnkowskiego 14/3 , 81-202 Gdynia</p><p>Adres 3.
   ul. Wincentego Pola 17, 83-110 Tczew <br>Wizyty stacjonarne oraz online</p>
 hours_html: <p>Poniedziałek – piątek<br>9:00–18:00</p>
 message_eyebrow: Pierwszy krok
 message_title: Napisz do mnie
 message_lead: Możesz krótko opisać, w jakiej sprawie się kontaktujesz, lub po
   prostu zapytać o możliwość umówienia konsultacji.
-message_info: "Wypełnij poniższy formularz, aby wysłać wiadomość. Odpowiem na podany adres e-mail."
+message_info: Wypełnij poniższy formularz, aby wysłać wiadomość. Odpowiem na
+  podany adres e-mail.
 message_button: Napisz wiadomość e-mail
 closing_note: Bezpieczna przestrzeń do rozmowy, zrozumienia i odzyskiwania równowagi.
 email_secondary: kontakt@przestrzenczulosci.pl
-form_endpoint: "https://send.webforms.to/wft_ewcmi9a99i2w5yanjt4a"
+form_endpoint: https://send.webforms.to/wft_ewcmi9a99i2w5yanjt4a
