@@ -29,13 +29,9 @@ Jak pisał w książce Marshall B. Rosenberg -
 
 Według Liv Larson, mediatorki i trenerki NVC, warto zajmować się konfliktami w następujący sposób :
 
-1. Wyłóż wszystkie karty na stół (fakty i obserwacje) 
-
-2. Dostrzeż człowieka we wszystkich osobach zamieszanych w spór (zrozum ich uczucia, potrzeby i marzenia) 
-
-3. Stwórz jasny obraz - jakiego rozwiązania sytuacji oczekują zainteresowani (wypowiedzenie życzeń i próśb). 
-
-
+1. Wyłóż wszystkie karty na stół (fakty i obserwacje)
+2. Dostrzeż człowieka we wszystkich osobach zamieszanych w spór (zrozum ich uczucia, potrzeby i marzenia)
+3. Stwórz jasny obraz - jakiego rozwiązania sytuacji oczekują zainteresowani (wypowiedzenie życzeń i próśb).
 
 Jednym z centralnych założeń Porozumienia Bez Przemocy jest świadomość, że inni ludzie nie są odpowiedzialni za nasze uczucia. Wpływ na to, jak odczuwamy, ma jedynie nastawienie, z jakim reagujemy - tak pisał Rosenberg w książce o rozwiązywaniu konfliktów. Właśnie na tę strefę możemy wpłynąć w zarządzaniu sytuacjami konfliktowymi. 
 
@@ -60,15 +56,10 @@ Na co możemy reagować? Do czego przywiązać wagę? Oczywiście to sprawa indy
 Podam kilka przykładów :
 
 - zmieniony ton głosu - podniesiony, zimny, bojowy i atakujący, wymowa z podziałem na sylaby, syczenie, krzyk,
-
 - komunikaty niesprzyjające empatii, takie jak generalizacje - wszyscy/ nikt, zawsze /nigdy, oni / po raz kolejny
-
 - komunikaty w formie "Ty", lub" ty jesteś " - oskarżanie, ocena,
-
 - milczenie ( otwiera pole do interpretacji, na przykład jeśli określimy je mianem wymownego, wyobraźnia szaleje),
-
 - postawa ciała, gesty, wyraz twarzy czy spojrzenie,
-
 - inne... (dopisz własne przykłady),
 
 
@@ -76,15 +67,10 @@ Podam kilka przykładów :
 Postaw na analizę pierwszych oznak złości, sygnałów wysyłanych przez ciało:
 
 - szybszy oddech lub bicie serca,
-
 - pieczenie twarzy, 
-
 - swędzenie dłoni,
-
 - ból głowy lub brzucha,
-
 - miękkie nogi,
-
 - napięte ramiona i barki, itp
 
 
