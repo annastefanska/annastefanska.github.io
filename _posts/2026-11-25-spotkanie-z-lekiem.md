@@ -30,46 +30,25 @@ Zanim jednak przeczytasz mój list, chcę Ci pokazać, jakie głosy może przybr
 
 
 1. „Zobacz, znowu przesadzasz. Jesteś za dużo. Nikt tego nie wytrzyma.”
-
 2. „To Twoja wina. Gdybyś była inna, wszystko byłoby lepsze.”
-
 3. „Znowu Cię zostawili.  Bo coś z Tobą nie tak.”
-
 4. „Musisz być czujna, bo znów Cię skrzywdzą. Nie ufaj nikomu.”
-
 5. „Nie poradzisz sobie. To wszystko Cię przerośnie. Nie dasz rady.”
-
 6. „Lepiej się nie pokazuj ze swoimi uczuciami. I tak nikt Cię nie zrozumie.”
-
 7. „Jeśli się otworzysz, znowu Cię zniszczą. Lepiej milcz.”
-
 8. „Oni mają lepsze życie. Ty zawsze jesteś ta gorsza, ta ostatnia.”
-
 9. „Wszystko, co budujesz, i tak się rozpadnie.”
-
 10. „Nie zasługujesz na miłość. To pomyłka, że ktoś w ogóle Cię kochał.”
-
 11. „Jeśli przestaniesz się starać, to wszystko runie. Musisz cały czas kontrolować.”
-
 12. „Lepiej się wycofaj, zanim znów zostaniesz zraniona.”
-
 13. „Wszystko, co czujesz, jest przesadą. Inni mają gorzej.”
-
 14. „Jeśli pokażesz słabość, ludzie się od Ciebie odwrócą.”
-
 15. „Nikt nie chce być z kimś takim jak Ty. Zawsze będą wybierać kogoś innego.”
-
 16. „To Ty jesteś problemem. Z Tobą zawsze coś jest nie tak.”
-
 17. „Już lepiej nie ufać nikomu. Tylko wtedy przetrwasz.”
-
 18. „Nie wolno Ci odpoczywać. Musisz zasłużyć na prawo do istnienia.”
-
 19. „Jeśli jeszcze raz pokażesz, że Ci zależy, znowu Cię odepchną.”
-
 20. „Może lepiej zniknąć. Może wtedy wszystkim będzie lżej.”
-
-
 
 Każdy z tych głosów kiedyś miał swój cel – chciał mnie OCHRONIĆ. Ale dziś wiem, że można odpowiedzieć lękowi inaczej. MOŻNA POWIEDZIEĆ:
 
