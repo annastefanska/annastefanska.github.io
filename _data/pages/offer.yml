@@ -32,7 +32,7 @@ services:
     body_html: <p>Spotkania
       dla:</p><ul><li><p>rodziców</p></li><li><p>nauczycieli</p></li><li><p>specjalistów</p></li><li><p>dzieci
       i młodzieży</p></li><li><p>grup wsparcia</p></li></ul><p></p>
-  - label: 06 / TEMATYKA
+  - label: 07 / TEMATYKA
     title: Tematy warsztatów
     body_html: <ul><li><p>stres i wypalenie</p></li><li><p>regulacja
       emocji</p></li><li><p>komunikacja</p></li><li><p>odporność
