@@ -1,37 +1,51 @@
-meta_description: Konsultacje psychologiczne, psychotraumatologia, psychoonkologia, warsztaty i inne obszary wsparcia.
+meta_description: Konsultacje psychologiczne, psychotraumatologia,
+  psychoonkologia, warsztaty i inne obszary wsparcia.
 meta_title: Oferta
 eyebrow: Z uważnością na Twoje potrzeby
 title: Moja oferta
 lead: Psychologia · Psychotraumatologia · Psychoonkologia · Warsztaty
 services_eyebrow: Obszary wsparcia
 services_title: W czym mogę Ci towarzyszyć?
-services_lead: Każde spotkanie jest przestrzenią pełną uważności, szacunku i bezpieczeństwa. Wspólnie poszukamy drogi do lepszego
-  zrozumienia siebie, odzyskania równowagi oraz większego spokoju.
+services_lead: Każde spotkanie jest przestrzenią pełną uważności, szacunku i
+  bezpieczeństwa. Wspólnie poszukamy drogi do lepszego zrozumienia siebie,
+  odzyskania równowagi oraz większego spokoju.
 services:
-- label: 01 / WSPARCIE
-  title: Konsultacje psychologiczne
-  body_html: <p>Wsparcie w sytuacjach kryzysowych, trudnościach emocjonalnych, przewlekłym stresie, lęku oraz budowaniu poczucia
-    własnej wartości.</p>
-- label: 02 / WSPARCIE
-  title: Psychotraumatologia
-  body_html: <p>Pomoc osobom po doświadczeniach traumatycznych, przemocy psychicznej, stracie oraz długotrwałym stresie.</p>
-- label: 03 / WSPARCIE
-  title: Psychoonkologia
-  body_html: <p>Wsparcie psychologiczne dla osób chorujących onkologicznie oraz ich rodzin. Pomoc w odnalezieniu siły i równowagi
-    na każdym etapie leczenia.</p>
-- label: 04 / WSPARCIE
-  title: Muzykoterapia
-  body_html: <p>Wykorzystanie muzyki, uważności oraz elementów pracy z ciałem w celu regulacji emocji i redukcji napięcia.</p>
-- label: 05 / SPOTKANIA GRUPOWE
-  title: Warsztaty
-  body_html: <p>Spotkania dla:</p><ul><li>rodziców</li><li>nauczycieli</li><li>specjalistów</li><li>dzieci i młodzieży</li><li>grup
-    wsparcia</li></ul>
-- label: 06 / TEMATYKA
-  title: Tematy warsztatów
-  body_html: <ul><li>stres i wypalenie</li><li>regulacja emocji</li><li>komunikacja</li><li>odporność psychiczna</li><li>poczucie
-    własnej wartości</li><li>psychoedukacja</li></ul>
+  - label: 01 / WSPARCIE
+    title: Konsultacje psychologiczne
+    body_html: <p>Wsparcie w sytuacjach kryzysowych, trudnościach emocjonalnych,
+      przewlekłym stresie, lęku oraz budowaniu poczucia własnej wartości.</p>
+  - label: 02 / WSPARCIE
+    title: Psychotraumatologia
+    body_html: <p>Pomoc osobom po doświadczeniach traumatycznych, przemocy
+      psychicznej, stracie oraz długotrwałym stresie.</p>
+  - label: 03 / WSPARCIE
+    title: Psychoonkologia
+    body_html: <p>Wsparcie psychologiczne dla osób chorujących onkologicznie oraz
+      ich rodzin. Pomoc w odnalezieniu siły i równowagi na każdym etapie
+      leczenia.</p>
+  - label: 04 / WSPARCIE
+    title: Muzykoterapia
+    body_html: <p>Wykorzystanie muzyki, uważności oraz elementów pracy z ciałem w
+      celu regulacji emocji i redukcji napięcia.</p>
+  - label: 05 / SPOTKANIA GRUPOWE
+    title: Warsztaty
+    body_html: <p>Spotkania
+      dla:</p><ul><li><p>rodziców</p></li><li><p>nauczycieli</p></li><li><p>specjalistów</p></li><li><p>dzieci
+      i młodzieży</p></li><li><p>grup wsparcia</p></li></ul><p></p>
+  - label: 06 / TEMATYKA
+    title: Tematy warsztatów
+    body_html: <ul><li><p>stres i wypalenie</p></li><li><p>regulacja
+      emocji</p></li><li><p>komunikacja</p></li><li><p>odporność
+      psychiczna</p></li><li><p>poczucie własnej
+      wartości</p></li><li><p>psychoedukacja</p></li></ul><p></p>
+  - label: "05 / Wsparcie "
+    title: Muzeoterapia
+    body_html: <p>Wykorzystanie sztuki, przestrzeni muzealnej i kontaktu z
+      dziedzictwem kulturowym w celu wspierania dobrostanu psychicznego,
+      rozwijania uważności, pobudzania refleksji oraz regulacji emocji.</p>
 callout:
   eyebrow: Pierwszy krok
   title: Umów konsultację
-  body: Jeżeli czujesz, że to dobry moment, aby zadbać o siebie, serdecznie zapraszam do kontaktu.
+  body: Jeżeli czujesz, że to dobry moment, aby zadbać o siebie, serdecznie
+    zapraszam do kontaktu.
   button_label: Skontaktuj się ze mną
