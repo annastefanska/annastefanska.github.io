@@ -24,21 +24,14 @@ CZYM JEST WYPALENIE W ZAWODZIE PSYCHOLOGA?
 Pojęcie wypalenia zawodowego wprowadziła Christina Maslach, która opisała je jako stan obejmujący trzy obszary:
 
 1. Wyczerpanie emocjonalne
-
 2. Depersonalizację (zdystansowanie, cynizm, „odcięcie”)
-
 3. Obniżone poczucie skuteczności
-
-
 
 Jej badania pokazały, że szczególnie narażone są osoby pracujące w relacji pomocowej, gdzie:
 
 - jest intensywny kontakt emocjonalny,
-
 - występuje długotrwałe obciążenie cudzym cierpieniem,
-
 - pojawia się poczucie odpowiedzialności za innych,
-
 - brakuje wsparcia systemowego.
 
 
@@ -68,23 +61,14 @@ Proces, w którym:
 Wypalenie może wyglądać jak:
 
 - nadmierna surowość
-
 - wycofanie
-
 - skracanie relacji
-
 - unikanie trudnych tematów
-
 - utrata elastyczności
-
 - chroniczne zmęczenie mimo odpoczynku
-
 - trudność w empatii, zniecierpliwienie wobec pacjentów
-
 - poczucie „nic to nie daje”
-
 - somatyzacja (bóle głowy, napięcie, problemy ze snem)
-
 - myśl: „nie mam już z czego dawać”, „cokolwiek nie zrobię jest źle"
 
 
@@ -100,13 +84,9 @@ DLACZEGO PSYCHOLOG JEST SZCZEGÓLNIE NARAŻONY?
 Bo pracuje:
 
 - z traumą
-
 - z bezradnością
-
 - z projekcjami
-
 - z przeniesieniem i przeciwprzeniesieniem
-
 - z ogromnymi oczekiwaniami
 
 
@@ -114,11 +94,8 @@ Bo pracuje:
 A jednocześnie często:
 
 - nie ma obowiązkowej terapii własnej
-
 - nie ma regularnej superwizji
-
 - pracuje w przeciążonym systemie
-
 - bierze na siebie za dużo
 
 
@@ -172,11 +149,8 @@ Dlatego, że pracujesz z ludzką psychiką i to jest ogromna odpowiedzialność.
 3️⃣ Higiena pracy
 
 - realna liczba pacjentów jeżeli jest ponad stan to konieczne jest ograniczenie liczby pacjentów
-
 - przerwy między sesjami
-
 - brak pracy non stop
-
 - oddzielanie życia prywatnego
 
 
@@ -186,9 +160,7 @@ Dlatego, że pracujesz z ludzką psychiką i to jest ogromna odpowiedzialność.
 Jeśli pacjent Cię uruchamia:
 
 - złości
-
 - wywołuje bezradność
-
 - prowokuje do odcięcia
 
 
@@ -212,11 +184,8 @@ C) Co zostawiam w gabinecie?
 A CO ZROBIĆ JEŻELI JUŻ CZUJĘ, ŻE SIĘ WYPALAM?
 
 - Zmniejsz obciążenie (choćby tymczasowo)
-
 - Skonsultuj się z superwizorem, idź na terapię własną 
-
 - Zrób audyt granic
-
 - Daj sobie prawo do przerwy
 
 
